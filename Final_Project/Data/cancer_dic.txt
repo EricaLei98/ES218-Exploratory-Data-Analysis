@@ -1,0 +1,2392 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R11371132
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+Detailed documentation can be found here: https://www.socialexplorer.com/data/CDC2013
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Cancer Data 2013
+Dataset:          Cancer Data 2013
+Tables:
+
+      1. Total Cancer Deaths
+         Universe:  none
+         Name:      T1
+         Variables:
+            T001_001:   Total Cancer Deaths (2013)
+            T001_002:   Total Cancer Deaths (2011-2013)
+            T001_003:   Total Cancer Deaths (2009-2013)
+            T001_004:   Total Cancer Deaths (2007-2013)
+
+
+      2. Total Cancer Deaths
+         Universe:  none
+         Name:      NV2
+         Variables:
+            NV002_001:   Total Cancer Deaths (2013)
+            NV002_002:   Total Cancer Deaths (2011-2013)
+            NV002_003:   Total Cancer Deaths (2009-2013)
+            NV002_004:   Total Cancer Deaths (2007-2013)
+
+
+      3. Total Population
+         Universe:  none
+         Name:      NV3
+         Variables:
+            NV003_001:   Total Population (est. 2013)
+            NV003_002:   Cumulative Population (est. 2011-2013)
+            NV003_003:   Cumulative Population (est. 2009-2013)
+            NV003_004:   Cumulative Population (est. 2007-2013)
+
+
+      4. Total Cancer Deaths by Age (2007-2013)
+         Universe:  none
+         Name:      T2
+         Variables:
+            T002_001:   Total Cancer Deaths:
+            T002_002:      Under 18 Years
+            T002_003:      18 to 44 Years
+            T002_004:      45 to 64 Years
+            T002_005:      65 Years and Over
+
+
+      5. Total Cancer Deaths by Age (2007-2013)
+         Universe:  none
+         Name:      NV5
+         Variables:
+            NV005_001:   Total Cancer Deaths:
+            NV005_002:      Under 18 Years
+            NV005_003:      18 to 44 Years
+            NV005_004:      45 to 64 Years
+            NV005_005:      65 Years and Over
+
+
+      6. Cumulative Population (2007-2013)
+         Universe:  none
+         Name:      NV6
+         Variables:
+            NV006_001:   Denominator Total_Cancer deaths total_2007-2013
+            NV006_002:      Denominator Aged <18 years_Cancer deaths total_2007-2013
+            NV006_003:      Denominator Aged 18-44 years_Cancer deaths total_2007-2013
+            NV006_004:      Denominator Aged 45-64 years_Cancer deaths total_2007-2013
+            NV006_005:      Denominator Aged 65 years and over_Cancer deaths total_2007-2013
+
+
+      7. Total Cancer Deaths by Age (2009-2013)
+         Universe:  none
+         Name:      T3
+         Variables:
+            T003_001:   Total Cancer Deaths:
+            T003_002:      Under 18 Years
+            T003_003:      18 to 44 Years
+            T003_004:      45 to 64 Years
+            T003_005:      65 Years and Over
+
+
+      8. Total Cancer Deaths by Age (2009-2013)
+         Universe:  none
+         Name:      NV8
+         Variables:
+            NV008_001:   Total Cancer Deaths:
+            NV008_002:      Under 18 Years
+            NV008_003:      18 to 44 Years
+            NV008_004:      45 to 64 Years
+            NV008_005:      65 Years and Over
+
+
+      9. Cumulative Population (2009-2013)
+         Universe:  none
+         Name:      NV9
+         Variables:
+            NV009_001:   Denominator Total_Cancer deaths total_2009-2013
+            NV009_002:      Denominator Aged <18 years_Cancer deaths total_2009-2013
+            NV009_003:      Denominator Aged 18-44 years_Cancer deaths total_2009-2013
+            NV009_004:      Denominator Aged 45-64 years_Cancer deaths total_2009-2013
+            NV009_005:      Denominator Aged 65 years and over_Cancer deaths total_2009-2013
+
+
+      10. Total Cancer Deaths by Age (2011-2013)
+          Universe:  none
+          Name:      T4
+          Variables:
+             T004_001:   Total Cancer Deaths:
+             T004_002:      Under 18 Years
+             T004_003:      18 to 44 Years
+             T004_004:      45 to 64 Years
+             T004_005:      65 Years and Over
+
+
+      11. Total Cancer Deaths by Age (2011-2013)
+          Universe:  none
+          Name:      NV11
+          Variables:
+             NV011_001:   Total Cancer Deaths:
+             NV011_002:      Under 18 Years
+             NV011_003:      18 to 44 Years
+             NV011_004:      45 to 64 Years
+             NV011_005:      65 Years and Over
+
+
+      12. Cumulative Population (2011-2013)
+          Universe:  none
+          Name:      NV12
+          Variables:
+             NV012_001:   Denominator Total_Cancer deaths total_2011-2013
+             NV012_002:      Denominator Aged <18 years_Cancer deaths total_2011-2013
+             NV012_003:      Denominator Aged 18-44 years_Cancer deaths total_2011-2013
+             NV012_004:      Denominator Aged 45-64 years_Cancer deaths total_2011-2013
+             NV012_005:      Denominator Aged 65 years and over_Cancer deaths total_2011-2013
+
+
+      13. Total Cancer Deaths by Age and Race (2007-2013)
+          Universe:  none
+          Name:      T5
+          Variables:
+             T005_001:   Under 18 Years:
+             T005_002:      White:
+             T005_003:         White Non-Hispanic
+             T005_004:      Black or African American:
+             T005_005:         Black or African American and Non-Hispanic
+             T005_006:      Asian or Pacific Islander
+             T005_007:      American Indian or Alaska Native
+             T005_008:   18 to 44 Years:
+             T005_009:      White:
+             T005_010:         White Non-Hispanic
+             T005_011:      Black or African American:
+             T005_012:         Black or African American and Non-Hispanic
+             T005_013:      Asian or Pacific Islander
+             T005_014:      American Indian or Alaska Native
+             T005_015:   45 to 64 Years:
+             T005_016:      White:
+             T005_017:         White Non-Hispanic
+             T005_018:      Black or African American:
+             T005_019:         Black or African American and Non-Hispanic
+             T005_020:      Asian or Pacific Islander
+             T005_021:      American Indian or Alaska Native
+             T005_022:   65 Years and Over:
+             T005_023:      White:
+             T005_024:         White Non-Hispanic
+             T005_025:      Black or African American:
+             T005_026:         Black or African American and Non-Hispanic
+             T005_027:      Asian or Pacific Islander
+             T005_028:      American Indian or Alaska Native
+
+
+      14. Total Cancer Deaths by Age and Race (2007-2013)
+          Universe:  none
+          Name:      NV14
+          Variables:
+             NV014_001:   Under 18 Years:
+             NV014_002:      White:
+             NV014_003:         White Non-Hispanic
+             NV014_004:      Black or African American:
+             NV014_005:         Black or African American Non-Hispanic
+             NV014_006:      Asian or Pacific Islander
+             NV014_007:      American Indian or Alaska Native
+             NV014_008:   18 to 44 Years:
+             NV014_009:      White:
+             NV014_010:         White Non-Hispanic
+             NV014_011:      Black or African American:
+             NV014_012:         Black or African American Non-Hispanic
+             NV014_013:      Asian or Pacific Islander
+             NV014_014:      American Indian or Alaska Native
+             NV014_015:   45 to 64 Years:
+             NV014_016:      White:
+             NV014_017:         White Non-Hispanic
+             NV014_018:      Black or African American:
+             NV014_019:         Black or African American Non-Hispanic
+             NV014_020:      Asian or Pacific Islander
+             NV014_021:      American Indian or Alaska Native
+             NV014_022:   65 Years and Over:
+             NV014_023:      White:
+             NV014_024:         White Non-Hispanic
+             NV014_025:      Black or African American:
+             NV014_026:         Black or African American Non-Hispanic
+             NV014_027:      Asian or Pacific Islander
+             NV014_028:      American Indian or Alaska Native
+
+
+      15. Cumulative Population by Age and Race (2007-2013)
+          Universe:  none
+          Name:      NV16
+          Variables:
+             NV016_001:   Denominator Aged <18 years_Cancer deaths total_2007-2013
+             NV016_002:      Denominator Aged <18 years White_Cancer deaths total_2007-2013
+             NV016_003:         Denominator Aged <18 years White non-Hispanic_Cancer deaths total_2007-2013
+             NV016_004:      Denominator Aged <18 years Black or African American_Cancer deaths total_2007-2013
+             NV016_005:         Denominator Aged <18 years Black or African American non-Hispanic_Cancer deaths total_2007-2013
+             NV016_006:      Denominator Aged <18 years Asian or Pacific Islander_Cancer deaths total_2007-2013
+             NV016_007:      Denominator Aged <18 years American Indian or Alaska Native_Cancer deaths total_2007-2013
+             NV016_008:   Denominator Aged 18-44 years_Cancer deaths total_2007-2013
+             NV016_009:      Denominator Aged 18-44 years White_Cancer deaths total_2007-2013
+             NV016_010:         Denominator Aged 18-44 years White non-Hispanic_Cancer deaths total_2007-2013
+             NV016_011:      Denominator Aged 18-44 years Black or African American_Cancer deaths total_2007-2013
+             NV016_012:         Denominator Aged 18-44 years Black or African American non-Hispanic_Cancer deaths total_2007-2013
+             NV016_013:      Denominator Aged 18-44 years Asian or Pacific Islander_Cancer deaths total_2007-2013
+             NV016_014:      Denominator Aged 18-44 years American Indian or Alaska Native_Cancer deaths total_2007-2013
+             NV016_015:   Denominator Aged 45-64 years_Cancer deaths total_2007-2013
+             NV016_016:      Denominator Aged 45-64 years White_Cancer deaths total_2007-2013
+             NV016_017:         Denominator Aged 45-64 years White non-Hispanic_Cancer deaths total_2007-2013
+             NV016_018:      Denominator Aged 45-64 years Black or African American_Cancer deaths total_2007-2013
+             NV016_019:         Denominator Aged 45-64 years Black or African American non-Hispanic_Cancer deaths total_2007-2013
+             NV016_020:      Denominator Aged 45-64 years Asian or Pacific Islander_Cancer deaths total_2007-2013
+             NV016_021:      Denominator Aged 45-64 years American Indian or Alaska Native_Cancer deaths total_2007-2013
+             NV016_022:   Denominator Aged 65 years and over_Cancer deaths total_2007-2013
+             NV016_023:      Denominator Aged 65 years and over White_Cancer deaths total_2007-2013
+             NV016_024:         Denominator Aged 65 years and over White non-Hispanic_Cancer deaths total_2007-2013
+             NV016_025:      Denominator Aged 65 years and over Black or African American_Cancer deaths total_2007-2013
+             NV016_026:         Denominator Aged 65 years and over Black or African American non-Hispanic_Cancer deaths total_2007-2013
+             NV016_027:      Denominator Aged 65 years and over Asian or Pacific Islander_Cancer deaths total_2007-2013
+             NV016_028:      Denominator Aged 65 years and over American Indian or Alaska Native_Cancer deaths total_2007-2013
+
+
+      16. Total Cancer Deaths by Age and Race (2009-2013)
+          Universe:  none
+          Name:      T6
+          Variables:
+             T006_001:   Under 18 Years:
+             T006_002:      White:
+             T006_003:         White Non-Hispanic
+             T006_004:      Black or African American:
+             T006_005:         Black or African American and Non-Hispanic
+             T006_006:      Asian or Pacific Islander
+             T006_007:      American Indian or Alaska Native
+             T006_008:   18 to 44 Years:
+             T006_009:      White:
+             T006_010:         White Non-Hispanic
+             T006_011:      Black or African American:
+             T006_012:         Black or African American and Non-Hispanic
+             T006_013:      Asian or Pacific Islander
+             T006_014:      American Indian or Alaska Native
+             T006_015:   45 to 64 Years:
+             T006_016:      White:
+             T006_017:         White Non-Hispanic
+             T006_018:      Black or African American:
+             T006_019:         Black or African American and Non-Hispanic
+             T006_020:      Asian or Pacific Islander
+             T006_021:      American Indian or Alaska Native
+             T006_022:   65 Years and Over:
+             T006_023:      White:
+             T006_024:         White Non-Hispanic
+             T006_025:      Black or African American:
+             T006_026:         Black or African American and Non-Hispanic
+             T006_027:      Asian or Pacific Islander
+             T006_028:      American Indian or Alaska Native
+
+
+      17. Total Cancer Deaths by Age and Race (2009-2013)
+          Universe:  none
+          Name:      NV18
+          Variables:
+             NV018_001:   Under 18 Years:
+             NV018_002:      White:
+             NV018_003:         White Non-Hispanic
+             NV018_004:      Black or African American:
+             NV018_005:         Black or African American Non-Hispanic
+             NV018_006:      Asian or Pacific Islander
+             NV018_007:      American Indian or Alaska Native
+             NV018_008:   18 to 44 Years:
+             NV018_009:      White:
+             NV018_010:         White Non-Hispanic
+             NV018_011:      Black or African American:
+             NV018_012:         Black or African American Non-Hispanic
+             NV018_013:      Asian or Pacific Islander
+             NV018_014:      American Indian or Alaska Native
+             NV018_015:   45 to 64 Years:
+             NV018_016:      White:
+             NV018_017:         White Non-Hispanic
+             NV018_018:      Black or African American:
+             NV018_019:         Black or African American Non-Hispanic
+             NV018_020:      Asian or Pacific Islander
+             NV018_021:      American Indian or Alaska Native
+             NV018_022:   65 Years and Over:
+             NV018_023:      White:
+             NV018_024:         White Non-Hispanic
+             NV018_025:      Black or African American:
+             NV018_026:         Black or African American Non-Hispanic
+             NV018_027:      Asian or Pacific Islander
+             NV018_028:      American Indian or Alaska Native
+
+
+      18. Cumulative Population by Age and Race (2009-2013)
+          Universe:  none
+          Name:      NV20
+          Variables:
+             NV020_001:   Denominator Aged <18 years_Cancer deaths total_2009-2013
+             NV020_002:      Denominator Aged <18 years White_Cancer deaths total_2009-2013
+             NV020_003:         Denominator Aged <18 years White non-Hispanic_Cancer deaths total_2009-2013
+             NV020_004:      Denominator Aged <18 years Black or African American_Cancer deaths total_2009-2013
+             NV020_005:         Denominator Aged <18 years Black or African American non-Hispanic_Cancer deaths total_2009-2013
+             NV020_006:      Denominator Aged <18 years Asian or Pacific Islander_Cancer deaths total_2009-2013
+             NV020_007:      Denominator Aged <18 years American Indian or Alaska Native_Cancer deaths total_2009-2013
+             NV020_008:      Denominator Aged 18-44 years_Cancer deaths total_2009-2013
+             NV020_009:      Denominator Aged 18-44 years White_Cancer deaths total_2009-2013
+             NV020_010:         Denominator Aged 18-44 years White non-Hispanic_Cancer deaths total_2009-2013
+             NV020_011:      Denominator Aged 18-44 years Black or African American_Cancer deaths total_2009-2013
+             NV020_012:         Denominator Aged 18-44 years Black or African American non-Hispanic_Cancer deaths total_2009-2013
+             NV020_013:      Denominator Aged 18-44 years Asian or Pacific Islander_Cancer deaths total_2009-2013
+             NV020_014:      Denominator Aged 18-44 years American Indian or Alaska Native_Cancer deaths total_2009-2013
+             NV020_015:   Denominator Aged 45-64 years_Cancer deaths total_2009-2013
+             NV020_016:      Denominator Aged 45-64 years White_Cancer deaths total_2009-2013
+             NV020_017:         Denominator Aged 45-64 years White non-Hispanic_Cancer deaths total_2009-2013
+             NV020_018:      Denominator Aged 45-64 years Black or African American_Cancer deaths total_2009-2013
+             NV020_019:         Denominator Aged 45-64 years Black or African American non-Hispanic_Cancer deaths total_2009-2013
+             NV020_020:      Denominator Aged 45-64 years Asian or Pacific Islander_Cancer deaths total_2009-2013
+             NV020_021:      Denominator Aged 45-64 years American Indian or Alaska Native_Cancer deaths total_2009-2013
+             NV020_022:   Denominator Aged 65 years and over_Cancer deaths total_2009-2013
+             NV020_023:      Denominator Aged 65 years and over White_Cancer deaths total_2009-2013
+             NV020_024:         Denominator Aged 65 years and over White non-Hispanic_Cancer deaths total_2009-2013
+             NV020_025:      Denominator Aged 65 years and over Black or African American_Cancer deaths total_2009-2013
+             NV020_026:         Denominator Aged 65 years and over Black or African American non-Hispanic_Cancer deaths total_2009-2013
+             NV020_027:      Denominator Aged 65 years and over Asian or Pacific Islander_Cancer deaths total_2009-2013
+             NV020_028:      Denominator Aged 65 years and over American Indian or Alaska Native_Cancer deaths total_2009-2013
+
+
+      19. Total Cancer Deaths by Age and Race (2011-2013)
+          Universe:  none
+          Name:      T7
+          Variables:
+             T007_001:   Under 18 Years:
+             T007_002:      White:
+             T007_003:         White non-Hispanic
+             T007_004:      Black or African American:
+             T007_005:         Black or African American non-Hispanic
+             T007_006:      Asian or Pacific Islander
+             T007_007:      American Indian or Alaska Native
+             T007_008:   18 to 44 Years:
+             T007_009:      White:
+             T007_010:         White non-Hispanic
+             T007_011:      Black or African American:
+             T007_012:         Black or African American non-Hispanic
+             T007_013:      Asian or Pacific Islander
+             T007_014:      American Indian or Alaska Native
+             T007_015:   45 to 64 Years:
+             T007_016:      White:
+             T007_017:         White non-Hispanic
+             T007_018:      Black or African American:
+             T007_019:         Black or African American non-Hispanic
+             T007_020:      Asian or Pacific Islander
+             T007_021:      American Indian or Alaska Native
+             T007_022:   65 Years and Over:
+             T007_023:      White:
+             T007_024:         White non-Hispanic
+             T007_025:      Black or African American:
+             T007_026:         Black or African American non-Hispanic
+             T007_027:      Asian or Pacific Islander
+             T007_028:      American Indian or Alaska Native
+
+
+      20. Total Cancer Deaths by Age and Race (2011-2013)
+          Universe:  none
+          Name:      NV22
+          Variables:
+             NV022_001:   Under 18 Years:
+             NV022_002:      White:
+             NV022_003:         White non-Hispanic
+             NV022_004:      Black or African American:
+             NV022_005:         Black or African American non-Hispanic
+             NV022_006:      Asian or Pacific Islander
+             NV022_007:      American Indian or Alaska Native
+             NV022_008:   18 to 44 Years:
+             NV022_009:      White:
+             NV022_010:         White non-Hispanic
+             NV022_011:      Black or African American:
+             NV022_012:         Black or African American non-Hispanic
+             NV022_013:      Asian or Pacific Islander
+             NV022_014:      American Indian or Alaska Native
+             NV022_015:   45 to 64 Years:
+             NV022_016:      White:
+             NV022_017:         White non-Hispanic
+             NV022_018:      Black or African American:
+             NV022_019:         Black or African American non-Hispanic
+             NV022_020:      Asian or Pacific Islander
+             NV022_021:      American Indian or Alaska Native
+             NV022_022:   65 Years and Over:
+             NV022_023:      White:
+             NV022_024:         White non-Hispanic
+             NV022_025:      Black or African American:
+             NV022_026:         Black or African American non-Hispanic
+             NV022_027:      Asian or Pacific Islander
+             NV022_028:      American Indian or Alaska Native
+
+
+      21. Cumulative Population by Age and Race (2011-2013)
+          Universe:  none
+          Name:      NV24
+          Variables:
+             NV024_001:   Denominator Aged <18 years_Cancer deaths total_2011-2013
+             NV024_002:      Denominator Aged <18 years White_Cancer deaths total_2011-2013
+             NV024_003:         Denominator Aged <18 years White non-Hispanic_Cancer deaths total_2011-2013
+             NV024_004:      Denominator Aged <18 years Black or African American_Cancer deaths total_2011-2013
+             NV024_005:         Denominator Aged <18 years Black or African American non-Hispanic_Cancer deaths total_2011-2013
+             NV024_006:      Denominator Aged <18 years Asian or Pacific Islander_Cancer deaths total_2011-2013
+             NV024_007:      Denominator Aged <18 years American Indian or Alaska Native_Cancer deaths total_2011-2013
+             NV024_008:   Denominator Aged 18-44 years_Cancer deaths total_2011-2013
+             NV024_009:      Denominator Aged 18-44 years White_Cancer deaths total_2011-2013
+             NV024_010:         Denominator Aged 18-44 years White non-Hispanic_Cancer deaths total_2011-2013
+             NV024_011:      Denominator Aged 18-44 years Black or African American_Cancer deaths total_2011-2013
+             NV024_012:         Denominator Aged 18-44 years Black or African American non-Hispanic_Cancer deaths total_2011-2013
+             NV024_013:      Denominator Aged 18-44 years Asian or Pacific Islander_Cancer deaths total_2011-2013
+             NV024_014:      Denominator Aged 18-44 years American Indian or Alaska Native_Cancer deaths total_2011-2013
+             NV024_015:   Denominator Aged 45-64 years_Cancer deaths total_2011-2013
+             NV024_016:      Denominator Aged 45-64 years White_Cancer deaths total_2011-2013
+             NV024_017:         Denominator Aged 45-64 years White non-Hispanic_Cancer deaths total_2011-2013
+             NV024_018:      Denominator Aged 45-64 years Black or African American_Cancer deaths total_2011-2013
+             NV024_019:         Denominator Aged 45-64 years Black or African American non-Hispanic_Cancer deaths total_2011-2013
+             NV024_020:      Denominator Aged 45-64 years Asian or Pacific Islander_Cancer deaths total_2011-2013
+             NV024_021:      Denominator Aged 45-64 years American Indian or Alaska Native_Cancer deaths total_2011-2013
+             NV024_022:   Denominator Aged 65 years and over_Cancer deaths total_2011-2013
+             NV024_023:      Denominator Aged 65 years and over White_Cancer deaths total_2011-2013
+             NV024_024:         Denominator Aged 65 years and over White non-Hispanic_Cancer deaths total_2011-2013
+             NV024_025:      Denominator Aged 65 years and over Black or African American_Cancer deaths total_2011-2013
+             NV024_026:         Denominator Aged 65 years and over Black or African American non-Hispanic_Cancer deaths total_2011-2013
+             NV024_027:      Denominator Aged 65 years and over Asian or Pacific Islander_Cancer deaths total_2011-2013
+             NV024_028:      Denominator Aged 65 years and over American Indian or Alaska Native_Cancer deaths total_2011-2013
+
+
+      22. Total Cancer Deaths by Age and Sex (2007-2013)
+          Universe:  none
+          Name:      T8
+          Variables:
+             T008_001:   Under 18 Years:
+             T008_002:      Female
+             T008_003:      Male
+             T008_004:   18 to 44 Years:
+             T008_005:      Female
+             T008_006:      Male
+             T008_007:   45 to 64 Years:
+             T008_008:      Female
+             T008_009:      Male
+             T008_010:   65 Years and Over:
+             T008_011:      Female
+             T008_012:      Male
+
+
+      23. Total Cancer Deaths by Age and Sex (2007-2013)
+          Universe:  none
+          Name:      NV26
+          Variables:
+             NV026_001:   Under 18 Years:
+             NV026_002:      Female
+             NV026_003:      Male
+             NV026_004:   18 to 44 Years:
+             NV026_005:      Female
+             NV026_006:      Male
+             NV026_007:   45 to 64 Years:
+             NV026_008:      Female
+             NV026_009:      Male
+             NV026_010:   65 Years and Over:
+             NV026_011:      Female
+             NV026_012:      Male
+
+
+      24. Cumulative Population (2007-2013)
+          Universe:  none
+          Name:      NV27
+          Variables:
+             NV027_001:   DenominatorUnder 18 Years
+             NV027_002:      Denominator Female
+             NV027_003:      Denominator Male
+             NV027_004:   Denominator 18 to 44 Years
+             NV027_005:      Denominator Female
+             NV027_006:      Denominator Male
+             NV027_007:   Denominator 45 to 64 Years
+             NV027_008:      Denominator Female
+             NV027_009:      Denominator Male
+             NV027_010:   Denominator 65 Years and Over
+             NV027_011:      Denominator Female
+             NV027_012:      Denominator Male
+
+
+      25. Total Cancer Deaths by Age and Sex (2009-2013)
+          Universe:  none
+          Name:      T9
+          Variables:
+             T009_001:   Under 18 Years:
+             T009_002:      Female
+             T009_003:      Male
+             T009_004:   18 to 44 Years:
+             T009_005:      Female
+             T009_006:      Male
+             T009_007:   45 to 64 Years:
+             T009_008:      Female
+             T009_009:      Male
+             T009_010:   65 Years and Over:
+             T009_011:      Female
+             T009_012:      Male
+
+
+      26. Total Cancer Deaths by Age and Sex (2009-2013)
+          Universe:  none
+          Name:      NV29
+          Variables:
+             NV029_001:   Under 18 Years:
+             NV029_002:      Female
+             NV029_003:      Male
+             NV029_004:   18 to 44 Years:
+             NV029_005:      Female
+             NV029_006:      Male
+             NV029_007:   45 to 64 Years:
+             NV029_008:      Female
+             NV029_009:      Male
+             NV029_010:   65 Years and Over:
+             NV029_011:      Female
+             NV029_012:      Male
+
+
+      27. Cumulative Population by Age and Sex (2009-2013)
+          Universe:  none
+          Name:      NV30
+          Variables:
+             NV030_001:   DenominatorUnder 18 Years
+             NV030_002:      Denominator Female
+             NV030_003:      Denominator Male
+             NV030_004:   Denominator 18 to 44 Years
+             NV030_005:      Denominator Female
+             NV030_006:      Denominator Male
+             NV030_007:   Denominator 45 to 64 Years
+             NV030_008:      Denominator Female
+             NV030_009:      Denominator Male
+             NV030_010:   Denominator 65 Years and Over
+             NV030_011:      Denominator Female
+             NV030_012:      Denominator Male
+
+
+      28. Total Cancer Deaths by Age and Sex (2011-2013)
+          Universe:  none
+          Name:      T10
+          Variables:
+             T010_001:   Under 18 Years:
+             T010_002:      Female
+             T010_003:      Male
+             T010_004:   18 to 44 Years:
+             T010_005:      Female
+             T010_006:      Male
+             T010_007:   45 to 64 Years:
+             T010_008:      Female
+             T010_009:      Male
+             T010_010:   65 Years and Over:
+             T010_011:      Female
+             T010_012:      Male
+
+
+      29. Total Cancer Deaths by Age and Sex (2011-2013)
+          Universe:  none
+          Name:      NV32
+          Variables:
+             NV032_001:   Under 18 Years:
+             NV032_002:      Female
+             NV032_003:      Male
+             NV032_004:   18 to 44 Years:
+             NV032_005:      Female
+             NV032_006:      Male
+             NV032_007:   45 to 64 Years:
+             NV032_008:      Female
+             NV032_009:      Male
+             NV032_010:   65 Years and Over:
+             NV032_011:      Female
+             NV032_012:      Male
+
+
+      30. Cumulative Population by Age and Sex (2011-2013)
+          Universe:  none
+          Name:      NV33
+          Variables:
+             NV033_001:   DenominatorUnder 18 Years
+             NV033_002:      Denominator Female
+             NV033_003:      Denominator Male
+             NV033_004:   Denominator 18 to 44 Years
+             NV033_005:      Denominator Female
+             NV033_006:      Denominator Male
+             NV033_007:   Denominator 45 to 64 Years
+             NV033_008:      Denominator Female
+             NV033_009:      Denominator Male
+             NV033_010:   Denominator 65 Years and Over
+             NV033_011:      Denominator Female
+             NV033_012:      Denominator Male
+
+
+      31. Breast Cancer Deaths
+          Universe:  
+          Name:      T18
+          Variables:
+             T018_001:   Breast Cancer Deaths (2013)
+             T018_002:   Breast Cancer Deaths (2011-2013)
+             T018_003:   Breast Cancer Deaths (2009-2013)
+             T018_004:   Breast Cancer Deaths (2007-2013)
+
+
+      32. Breast Cancer Deaths
+          Universe:  
+          Name:      NV56
+          Variables:
+             NV056_001:   Breast Cancer Deaths (2013)
+             NV056_002:   Breast Cancer Deaths (2011-2013)
+             NV056_003:   Breast Cancer Deaths (2009-2013)
+             NV056_004:   Breast Cancer Deaths (2007-2013)
+
+
+      33. Cumulative Population
+          Universe:  
+          Name:      NV57
+          Variables:
+             NV057_001:   Denominator Total_Breast cancer deaths
+             NV057_002:   Denominator Total_Breast cancer deaths_2011-2013
+             NV057_003:   Denominator Total_Breast cancer deaths_2009-2013
+             NV057_004:   Denominator Total_Breast cancer deaths_2007-2013
+
+
+      34. Breast Cancer Deaths by Age (2007-2013)
+          Universe:  none
+          Name:      T19
+          Variables:
+             T019_001:   Breast Cancer Deaths:
+             T019_002:      18 to 44 Years
+             T019_003:      45 to 64 Years
+             T019_004:      65 Years and Over
+
+
+      35. Breast Cancer Deaths by Age (2007-2013)
+          Universe:  none
+          Name:      NV59
+          Variables:
+             NV059_001:   Breast Cancer Deaths:
+             NV059_002:      18 to 44 Years
+             NV059_003:      45 to 64 Years
+             NV059_004:      65 Years and Over
+
+
+      36. Cumulative Population by Age (2007-2013)
+          Universe:  none
+          Name:      NV60
+          Variables:
+             NV060_001:   Denominator Total
+             NV060_002:      Denominator 18 to 44 Years
+             NV060_003:      Denominator 45 to 64 Years
+             NV060_004:      Denominator 65 Years and Over
+
+
+      37. Breast Cancer Deaths by Age (2009-2013)
+          Universe:  none
+          Name:      T20
+          Variables:
+             T020_001:   Breast Cancer Deaths:
+             T020_002:      18 to 44 Years
+             T020_003:      45 to 64 Years
+             T020_004:      65 Years and Over
+
+
+      38. Breast Cancer Deaths by Age (2009-2013)
+          Universe:  none
+          Name:      NV62
+          Variables:
+             NV062_001:   Breast Cancer Deaths:
+             NV062_002:      18 to 44 Years
+             NV062_003:      45 to 64 Years
+             NV062_004:      65 Years and Over
+
+
+      39. Cumulative Population by Age (2009-2013)
+          Universe:  none
+          Name:      NV63
+          Variables:
+             NV063_001:   Denominator Total
+             NV063_002:      Denominator 18 to 44 Years
+             NV063_003:      Denominator 45 to 64 Years
+             NV063_004:      Denominator 65 Years and Over
+
+
+      40. Breast Cancer Deaths by Age (2011-2013)
+          Universe:  none
+          Name:      T21
+          Variables:
+             T021_001:   Breast Cancer Deaths:
+             T021_002:      18 to 44 Years
+             T021_003:      45 to 64 Years
+             T021_004:      65 Years and Over
+
+
+      41. Breast Cancer Deaths by Age (2011-2013)
+          Universe:  none
+          Name:      NV65
+          Variables:
+             NV065_001:   Breast Cancer Deaths:
+             NV065_002:      18 to 44 Years
+             NV065_003:      45 to 64 Years
+             NV065_004:      65 Years and Over
+
+
+      42. Cumulative Population by Age (2011-2013)
+          Universe:  none
+          Name:      NV66
+          Variables:
+             NV066_001:   Denominator Total
+             NV066_002:      Denominator 18 to 44 Years
+             NV066_003:      Denominator 45 to 64 Years
+             NV066_004:      Denominator 65 Years and Over
+
+
+      43. Colorectal Cancer Deaths
+          Universe:  
+          Name:      T24
+          Variables:
+             T024_001:   Colorectal Cancer Deaths (2013)
+             T024_002:   Colorectal Cancer Deaths (2011-2013)
+             T024_003:   Colorectal Cancer Deaths (2009-2013)
+             T024_004:   Colorectal Cancer Deaths (2007-2013)
+
+
+      44. Colorectal Cancer Deaths
+          Universe:  
+          Name:      NV76
+          Variables:
+             NV076_001:   Colorectal Cancer Deaths (2013)
+             NV076_002:   Colorectal Cancer Deaths (2011-2013)
+             NV076_003:   Colorectal Cancer Deaths (2009-2013)
+             NV076_004:   Colorectal Cancer Deaths (2007-2013)
+
+
+      45. Cumulative Population
+          Universe:  
+          Name:      NV77
+          Variables:
+             NV077_001:   Denominator Total_Colorectal cancer deaths (per 100000)
+             NV077_002:   Denominator Total_Colorectal cancer deaths (per 100000)_2011-2013
+             NV077_003:   Denominator Total_Colorectal cancer deaths (per 100000)_2009-2013
+             NV077_004:   Denominator Total_Colorectal cancer deaths (per 100000)_2007-2013
+
+
+      46. Colorectal Cancer Deaths by Age and Race (2007-2013)
+          Universe:  none
+          Name:      T25
+          Variables:
+             T025_001:   18 to 44 Years:
+             T025_002:      White:
+             T025_003:         White non-Hispanic
+             T025_004:      Black or African American:
+             T025_005:         Black or African American non-Hispanic
+             T025_006:      Asian or Pacific Islander
+             T025_007:      American Indian or Alaska Native
+             T025_008:   45 to 64 Years:
+             T025_009:      White:
+             T025_010:         White non-Hispanic
+             T025_011:      Black or African American:
+             T025_012:         Black or African American non-Hispanic
+             T025_013:      Asian or Pacific Islander
+             T025_014:      American Indian or Alaska Native
+             T025_015:   65 Years and Over:
+             T025_016:      White:
+             T025_017:         White non-Hispanic
+             T025_018:      Black or African American:
+             T025_019:         Black or African American non-Hispanic
+             T025_020:      Asian or Pacific Islander
+             T025_021:      American Indian or Alaska Native
+
+
+      47. Colorectal Cancer Deaths by Age and Race (2007-2013)
+          Universe:  none
+          Name:      NV80
+          Variables:
+             NV080_001:   18 to 44 Years:
+             NV080_002:      White:
+             NV080_003:         White non-Hispanic
+             NV080_004:      Black or African American:
+             NV080_005:         Black or African American non-Hispanic
+             NV080_006:      Asian or Pacific Islander
+             NV080_007:      American Indian or Alaska Native
+             NV080_008:   45 to 64 Years:
+             NV080_009:      White:
+             NV080_010:         White non-Hispanic
+             NV080_011:      Black or African American:
+             NV080_012:         Black or African American non-Hispanic
+             NV080_013:      Asian or Pacific Islander
+             NV080_014:      American Indian or Alaska Native
+             NV080_015:   65 Years and Over:
+             NV080_016:      White:
+             NV080_017:         White non-Hispanic
+             NV080_018:      Black or African American:
+             NV080_019:         Black or African American non-Hispanic
+             NV080_020:      Asian or Pacific Islander
+             NV080_021:      American Indian or Alaska Native
+
+
+      48. Cumulative Population by Age and Race (2007-2013)
+          Universe:  none
+          Name:      NV81
+          Variables:
+             NV081_001:   Denominator 18 to 44 Years
+             NV081_002:      Denominator White
+             NV081_003:         Denominator White non-Hispanic
+             NV081_004:      Denominator Black or African American
+             NV081_005:         Denominator Black or African American non-Hispanic
+             NV081_006:      Denominator Asian or Pacific Islander
+             NV081_007:      Denominator American Indian or Alaska Native
+             NV081_008:   Denominator 45 to 64 Years
+             NV081_009:      Denominator White
+             NV081_010:         Denominator White non-Hispanic
+             NV081_011:      Denominator Black or African American
+             NV081_012:         Denominator Black or African American non-Hispanic
+             NV081_013:      Denominator Asian or Pacific Islander
+             NV081_014:      Denominator American Indian or Alaska Native
+             NV081_015:   Denominator 65 Years and Over
+             NV081_016:      Denominator White
+             NV081_017:         Denominator White non-Hispanic
+             NV081_018:      Denominator Black or African American
+             NV081_019:         Denominator Black or African American non-Hispanic
+             NV081_020:      Denominator Asian or Pacific Islander
+             NV081_021:      Denominator American Indian or Alaska Native
+
+
+      49. Colorectal Cancer Deaths by Age and Race (2009-2013)
+          Universe:  none
+          Name:      T26
+          Variables:
+             T026_001:   18 to 44 Years:
+             T026_002:      White:
+             T026_003:         White non-Hispanic
+             T026_004:      Black or African American:
+             T026_005:         Black or African American non-Hispanic
+             T026_006:      Asian or Pacific Islander
+             T026_007:   45 to 64 Years:
+             T026_008:      White:
+             T026_009:         White non-Hispanic
+             T026_010:      Black or African American:
+             T026_011:         Black or African American non-Hispanic
+             T026_012:      Asian or Pacific Islander
+             T026_013:      American Indian or Alaska Native
+             T026_014:   65 Years and Over:
+             T026_015:      White:
+             T026_016:         White non-Hispanic
+             T026_017:      Black or African American:
+             T026_018:         Black or African American non-Hispanic
+             T026_019:      Asian or Pacific Islander
+             T026_020:      American Indian or Alaska Native
+
+
+      50. Colorectal Cancer Deaths by Age and Race (2009-2013)
+          Universe:  none
+          Name:      NV83
+          Variables:
+             NV083_001:   18 to 44 Years:
+             NV083_002:      White:
+             NV083_003:         White non-Hispanic
+             NV083_004:      Black or African American:
+             NV083_005:         Black or African American non-Hispanic
+             NV083_006:      Asian or Pacific Islander
+             NV083_007:   45 to 64 Years:
+             NV083_008:      White:
+             NV083_009:         White non-Hispanic
+             NV083_010:      Black or African American:
+             NV083_011:         Black or African American non-Hispanic
+             NV083_012:      Asian or Pacific Islander
+             NV083_013:      American Indian or Alaska Native
+             NV083_014:   65 Years and Over:
+             NV083_015:      White:
+             NV083_016:         White non-Hispanic
+             NV083_017:      Black or African American:
+             NV083_018:         Black or African American non-Hispanic
+             NV083_019:      Asian or Pacific Islander
+             NV083_020:      American Indian or Alaska Native
+
+
+      51. Cumulative Population by Age and Race (2009-2013)
+          Universe:  none
+          Name:      NV84
+          Variables:
+             NV084_001:   Denominator 18 to 44 Years
+             NV084_002:      Denominator White
+             NV084_003:         Denominator White non-Hispanic
+             NV084_004:      Denominator Black or African American
+             NV084_005:         Denominator Black or African American non-Hispanic
+             NV084_006:      Denominator Asian or Pacific Islander
+             NV084_007:   Denominator 45 to 64 Years
+             NV084_008:      Denominator White
+             NV084_009:         Denominator White non-Hispanic
+             NV084_010:      Denominator Black or African American
+             NV084_011:         Denominator Black or African American non-Hispanic
+             NV084_012:      Denominator Asian or Pacific Islander
+             NV084_013:      Denominator American Indian or Alaska Native
+             NV084_014:   Denominator 65 Years and Over
+             NV084_015:      Denominator White
+             NV084_016:         Denominator White non-Hispanic
+             NV084_017:      Denominator Black or African American
+             NV084_018:         Denominator Black or African American non-Hispanic
+             NV084_019:      Denominator Asian or Pacific Islander
+             NV084_020:      Denominator American Indian or Alaska Native
+
+
+      52. Colorectal Cancer Deaths by Age and Race (2011-2013)
+          Universe:  none
+          Name:      T27
+          Variables:
+             T027_001:   18 to 44 Years:
+             T027_002:      White:
+             T027_003:         White non-Hispanic
+             T027_004:      Black or African American:
+             T027_005:         Black or African American non-Hispanic
+             T027_006:      Asian or Pacific Islander
+             T027_007:   45 to 64 Years:
+             T027_008:      White:
+             T027_009:         White non-Hispanic
+             T027_010:      Black or African American:
+             T027_011:         Black or African American non-Hispanic
+             T027_012:      Asian or Pacific Islander
+             T027_013:      American Indian or Alaska Native
+             T027_014:   65 Years and Over:
+             T027_015:      White:
+             T027_016:         White non-Hispanic
+             T027_017:      Black or African American:
+             T027_018:         Black or African American non-Hispanic
+             T027_019:      Asian or Pacific Islander
+             T027_020:      American Indian or Alaska Native
+
+
+      53. Colorectal Cancer Deaths by Age and Race (2011-2013)
+          Universe:  none
+          Name:      NV86
+          Variables:
+             NV086_001:   18 to 44 Years:
+             NV086_002:      White:
+             NV086_003:         White non-Hispanic
+             NV086_004:      Black or African American:
+             NV086_005:         Black or African American non-Hispanic
+             NV086_006:      Asian or Pacific Islander
+             NV086_007:   45 to 64 Years:
+             NV086_008:      White:
+             NV086_009:         White non-Hispanic
+             NV086_010:      Black or African American:
+             NV086_011:         Black or African American non-Hispanic
+             NV086_012:      American Indian or Alaska Native
+             NV086_013:      Asian or Pacific Islander
+             NV086_014:   65 Years and Over:
+             NV086_015:      White:
+             NV086_016:         White non-Hispanic
+             NV086_017:      Black or African American:
+             NV086_018:         Black or African American non-Hispanic
+             NV086_019:      Asian or Pacific Islander
+             NV086_020:      American Indian or Alaska Native
+
+
+      54. Cumulative Population by Age and Race (2011-2013)
+          Universe:  none
+          Name:      NV87
+          Variables:
+             NV087_001:   Denominator 18 to 44 Years
+             NV087_002:      Denominator White
+             NV087_003:         Denominator White non-Hispanic
+             NV087_004:      Denominator Black or African American
+             NV087_005:         Denominator Black or African American non-Hispanic
+             NV087_006:      Denominator Asian or Pacific Islander
+             NV087_007:   Denominator 45 to 64 Years
+             NV087_008:      Denominator White
+             NV087_009:         Denominator White non-Hispanic
+             NV087_010:      Denominator Black or African American
+             NV087_011:         Denominator Black or African American non-Hispanic
+             NV087_012:      Denominator Asian or Pacific Islander
+             NV087_013:      Denominator American Indian or Alaska Native
+             NV087_014:   Denominator 65 Years and Over
+             NV087_015:      Denominator White
+             NV087_016:         Denominator White non-Hispanic
+             NV087_017:      Denominator Black or African American
+             NV087_018:         Denominator Black or African American non-Hispanic
+             NV087_019:      Denominator Asian or Pacific Islander
+             NV087_020:      Denominator American Indian or Alaska Native
+
+
+      55. Colorectal Cancer Deaths by Age and Sex (2007-2013)
+          Universe:  none
+          Name:      T28
+          Variables:
+             T028_001:   18 to 44 Years:
+             T028_002:      Female
+             T028_003:      Male
+             T028_004:   45 to 64 Years:
+             T028_005:      Female
+             T028_006:      Male
+             T028_007:   65 Years and Over:
+             T028_008:      Female
+             T028_009:      Male
+
+
+      56. Colorectal Cancer Deaths by Age and Sex (2007-2013)
+          Universe:  none
+          Name:      NV89
+          Variables:
+             NV089_001:   18 to 44 Years:
+             NV089_002:      Female
+             NV089_003:      Male
+             NV089_004:   45 to 64 Years:
+             NV089_005:      Female
+             NV089_006:      Male
+             NV089_007:   65 Years and Over:
+             NV089_008:      Female
+             NV089_009:      Male
+
+
+      57. Cumulative Population by Age and Sex (2007-2013)
+          Universe:  none
+          Name:      NV90
+          Variables:
+             NV090_001:   Denominator 18 to 44 Years
+             NV090_002:      Denominator Female
+             NV090_003:      Denominator Male
+             NV090_004:   Denominator 45 to 64 Years
+             NV090_005:      Denominator Female
+             NV090_006:      Denominator Male
+             NV090_007:   Denominator 65 Years and Over
+             NV090_008:      Denominator Female
+             NV090_009:      Denominator Male
+
+
+      58. Colorectal Cancer Deaths by Age and Sex (2009-2013)
+          Universe:  none
+          Name:      T29
+          Variables:
+             T029_001:   18 to 44 Years:
+             T029_002:      Female
+             T029_003:      Male
+             T029_004:   45 to 64 Years:
+             T029_005:      Female
+             T029_006:      Male
+             T029_007:   65 Years and Over:
+             T029_008:      Female
+             T029_009:      Male
+
+
+      59. Colorectal Cancer Deaths by Age and Sex (2009-2013)
+          Universe:  none
+          Name:      NV92
+          Variables:
+             NV092_001:   18 to 44 Years:
+             NV092_002:      Female
+             NV092_003:      Male
+             NV092_004:   45 to 64 Years:
+             NV092_005:      Female
+             NV092_006:      Male
+             NV092_007:   65 Years and Over:
+             NV092_008:      Female
+             NV092_009:      Male
+
+
+      60. Cumulative Population by Age and Sex (2009-2013)
+          Universe:  none
+          Name:      NV93
+          Variables:
+             NV093_001:   Denominator 18 to 44 Years
+             NV093_002:      Denominator Female
+             NV093_003:      Denominator Male
+             NV093_004:   Denominator 45 to 64 Years
+             NV093_005:      Denominator Female
+             NV093_006:      Denominator Male
+             NV093_007:   Denominator 45 to 64 Years
+             NV093_008:      Denominator Female
+             NV093_009:      Denominator Male
+
+
+      61. Colorectal Cancer Deaths by Age and Sex (2011-2013)
+          Universe:  none
+          Name:      T30
+          Variables:
+             T030_001:   18 to 44 Years:
+             T030_002:      Female
+             T030_003:      Male
+             T030_004:   45 to 64 Years:
+             T030_005:      Female
+             T030_006:      Male
+             T030_007:   65 Years and Over:
+             T030_008:      Female
+             T030_009:      Male
+
+
+      62. Colorectal Cancer Deaths by Age and Sex (2011-2013)
+          Universe:  none
+          Name:      NV95
+          Variables:
+             NV095_001:   18 to 44 Years:
+             NV095_002:      Female
+             NV095_003:      Male
+             NV095_004:   45 to 64 Years:
+             NV095_005:      Female
+             NV095_006:      Male
+             NV095_007:   65 Years and Over:
+             NV095_008:      Female
+             NV095_009:      Male
+
+
+      63. Cumulative Population by Age and Sex (2011-2013)
+          Universe:  none
+          Name:      NV96
+          Variables:
+             NV096_001:   Denominator 18 to 44 Years
+             NV096_002:      Denominator Female
+             NV096_003:      Denominator Male
+             NV096_004:   Denominator 45 to 64 Years
+             NV096_005:      Denominator Female
+             NV096_006:      Denominator Male
+             NV096_007:   Denominator 65 Years and Over
+             NV096_008:      Denominator Female
+             NV096_009:      Denominator Male
+
+
+      64. Lung Cancer Deaths
+          Universe:  
+          Name:      T38
+          Variables:
+             T038_001:   Lung Cancer Deaths (2013)
+             T038_002:   Lung Cancer Deaths (2011-2013)
+             T038_003:   Lung Cancer Deaths (2009-2013)
+             T038_004:   Lung Cancer Deaths (2007-2013)
+
+
+      65. Lung Cancer Deaths
+          Universe:  
+          Name:      NV124
+          Variables:
+             NV124_001:   Lung Cancer Deaths (2013)
+             NV124_002:   Lung Cancer Deaths (2011-2013)
+             NV124_003:   Lung Cancer Deaths (2009-2013)
+             NV124_004:   Lung Cancer Deaths (2007-2013)
+
+
+      66. Cumulative Population
+          Universe:  
+          Name:      NV125
+          Variables:
+             NV125_001:   Denominator Total_Lung trachea and bronchus cancer deaths (per 100000)
+             NV125_002:   Denominator Total_Lung trachea and bronchus cancer deaths (per 100000)_2011-2013
+             NV125_003:   Denominator Total_Lung trachea and bronchus cancer deaths (per 100000)_2009-2013
+             NV125_004:   Denominator Total_Lung trachea and bronchus cancer deaths (per 100000)_2007-2013
+
+
+      67. Lung Cancer Deaths by Age and Race (2007-2013)
+          Universe:  none
+          Name:      T39
+          Variables:
+             T039_001:   18 to 44 Years:
+             T039_002:      White:
+             T039_003:         White non-Hispanic
+             T039_004:      Black or African American:
+             T039_005:         Black or African American non-Hispanic
+             T039_006:      Asian or Pacific Islander
+             T039_007:      American Indian or Alaska Native
+             T039_008:   45 to 64 Years:
+             T039_009:      White:
+             T039_010:         White non-Hispanic
+             T039_011:      Black or African American:
+             T039_012:         Black or African American non-Hispanic
+             T039_013:      Asian or Pacific Islander
+             T039_014:      American Indian or Alaska Native
+             T039_015:   65 Years and Over:
+             T039_016:      White:
+             T039_017:         White non-Hispanic
+             T039_018:      Black or African American:
+             T039_019:         Black or African American non-Hispanic
+             T039_020:      Asian or Pacific Islander
+             T039_021:      American Indian or Alaska Native
+
+
+      68. Lung Cancer Deaths by Age and Race (2007-2013)
+          Universe:  none
+          Name:      NV128
+          Variables:
+             NV128_001:   18 to 44 Years:
+             NV128_002:      White:
+             NV128_003:         White non-Hispanic
+             NV128_004:      Black or African American:
+             NV128_005:         Black or African American non-Hispanic
+             NV128_006:      Asian or Pacific Islander
+             NV128_007:      American Indian or Alaska Native
+             NV128_008:   45 to 64 Years:
+             NV128_009:      White:
+             NV128_010:         White non-Hispanic
+             NV128_011:      Black or African American:
+             NV128_012:         Black or African American non-Hispanic
+             NV128_013:      Asian or Pacific Islander
+             NV128_014:      American Indian or Alaska Native
+             NV128_015:   65 Years and Over:
+             NV128_016:      White:
+             NV128_017:         White non-Hispanic
+             NV128_018:      Black or African American:
+             NV128_019:         Black or African American non-Hispanic
+             NV128_020:      Asian or Pacific Islander
+             NV128_021:      American Indian or Alaska Native
+
+
+      69. Cumulative Population (2007-2013)
+          Universe:  none
+          Name:      NV130
+          Variables:
+             NV130_001:   Denominator 18 to 44 Years
+             NV130_002:      Denominator White
+             NV130_003:         Denominator White non-Hispanic
+             NV130_004:      Denominator Black or African American
+             NV130_005:         Denominator Black or African American non-Hispanic
+             NV130_006:      Denominator Asian or Pacific Islander
+             NV130_007:      Denominator American Indian or Alaska Native
+             NV130_008:   Denominator 45 to 64 Years
+             NV130_009:      Denominator White
+             NV130_010:         Denominator White non-Hispanic
+             NV130_011:      Denominator Black or African American
+             NV130_012:         Denominator Black or African American non-Hispanic
+             NV130_013:      Denominator Asian or Pacific Islander
+             NV130_014:      Denominator American Indian or Alaska Native
+             NV130_015:   Denominator 65 Years and Over
+             NV130_016:      Denominator White
+             NV130_017:         Denominator White non-Hispanic
+             NV130_018:      Denominator Black or African American
+             NV130_019:         Denominator Black or African American non-Hispanic
+             NV130_020:      Denominator Asian or Pacific Islander
+             NV130_021:      Denominator American Indian or Alaska Native
+
+
+      70. Lung Cancer Deaths by Age and Race (2009-2013)
+          Universe:  none
+          Name:      T40
+          Variables:
+             T040_001:   18 to 44 Years:
+             T040_002:      White:
+             T040_003:         White non-Hispanic
+             T040_004:      Black or African American:
+             T040_005:         Black or African American non-Hispanic
+             T040_006:      Asian or Pacific Islander
+             T040_007:      American Indian or Alaska Native
+             T040_008:   45 to 64 Years:
+             T040_009:      White:
+             T040_010:         White non-Hispanic
+             T040_011:      Black or African American:
+             T040_012:         Black or African American non-Hispanic
+             T040_013:      Asian or Pacific Islander
+             T040_014:      American Indian or Alaska Native
+             T040_015:   65 Years and Over:
+             T040_016:      White:
+             T040_017:         White non-Hispanic
+             T040_018:      Black or African American:
+             T040_019:         Black or African American non-Hispanic
+             T040_020:      Asian or Pacific Islander
+             T040_021:      American Indian or Alaska Native
+
+
+      71. Lung Cancer Deaths by Age and Race (2009-2013)
+          Universe:  none
+          Name:      NV133
+          Variables:
+             NV133_001:   18 to 44 Years:
+             NV133_002:      White:
+             NV133_003:         White non-Hispanic
+             NV133_004:      Black or African American:
+             NV133_005:         Black or African American non-Hispanic
+             NV133_006:      Asian or Pacific Islander
+             NV133_007:      American Indian or Alaska Native
+             NV133_008:   45 to 64 Years:
+             NV133_009:      White:
+             NV133_010:         White non-Hispanic
+             NV133_011:      Black or African American:
+             NV133_012:         Black or African American non-Hispanic
+             NV133_013:      Asian or Pacific Islander
+             NV133_014:      American Indian or Alaska Native
+             NV133_015:   65 Years and Over:
+             NV133_016:      White:
+             NV133_017:         White non-Hispanic
+             NV133_018:      Black or African American:
+             NV133_019:         Black or African American non-Hispanic
+             NV133_020:      Asian or Pacific Islander
+             NV133_021:      American Indian or Alaska Native
+
+
+      72. Cumulative Population (2009-2013)
+          Universe:  none
+          Name:      NV135
+          Variables:
+             NV135_001:   Denominator 18 to 44 Years
+             NV135_002:      Denominator White
+             NV135_003:         Denominator White non-Hispanic
+             NV135_004:      Denominator Black or African American
+             NV135_005:         Denominator Black or African American non-Hispanic
+             NV135_006:      Denominator Asian or Pacific Islander
+             NV135_007:      Denominator American Indian or Alaska Native
+             NV135_008:   Denominator 45 to 64 Years
+             NV135_009:      Denominator White
+             NV135_010:         Denominator White non-Hispanic
+             NV135_011:      Denominator Black or African American
+             NV135_012:         Denominator Black or African American non-Hispanic
+             NV135_013:      Denominator Asian or Pacific Islander
+             NV135_014:      Denominator American Indian or Alaska Native
+             NV135_015:   Denominator 65 Years and Over
+             NV135_016:      Denominator White
+             NV135_017:         Denominator White non-Hispanic
+             NV135_018:      Denominator Black or African American
+             NV135_019:         Denominator Black or African American non-Hispanic
+             NV135_020:      Denominator Asian or Pacific Islander
+             NV135_021:      Denominator American Indian or Alaska Native
+
+
+      73. Lung Cancer Deaths by Age and Race (2011-2013)
+          Universe:  none
+          Name:      T41
+          Variables:
+             T041_001:   18 to 44 Years:
+             T041_002:      White:
+             T041_003:         White non-Hispanic
+             T041_004:      Black or African American:
+             T041_005:         Black or African American non-Hispanic
+             T041_006:      Asian or Pacific Islander
+             T041_007:      American Indian or Alaska Native
+             T041_008:   45 to 64 Years:
+             T041_009:      White:
+             T041_010:         White non-Hispanic
+             T041_011:      Black or African American:
+             T041_012:         Black or African American non-Hispanic
+             T041_013:      Asian or Pacific Islander
+             T041_014:      American Indian or Alaska Native
+             T041_015:   65 Years and Over:
+             T041_016:      White:
+             T041_017:         White non-Hispanic
+             T041_018:      Black or African American:
+             T041_019:         Black or African American non-Hispanic
+             T041_020:      Asian or Pacific Islander
+             T041_021:      American Indian or Alaska Native
+
+
+      74. Lung Cancer Deaths by Age and Race (2011-2013)
+          Universe:  none
+          Name:      NV137
+          Variables:
+             NV137_001:   18 to 44 Years:
+             NV137_002:      White:
+             NV137_003:         White non-Hispanic
+             NV137_004:      Black or African American:
+             NV137_005:         Black or African American non-Hispanic
+             NV137_006:      Asian or Pacific Islander
+             NV137_007:      American Indian or Alaska Native
+             NV137_008:   45 to 64 Years:
+             NV137_009:      White:
+             NV137_010:         White non-Hispanic
+             NV137_011:      Black or African American:
+             NV137_012:         Black or African American non-Hispanic
+             NV137_013:      Asian or Pacific Islander
+             NV137_014:      American Indian or Alaska Native
+             NV137_015:   65 Years and Over:
+             NV137_016:      White:
+             NV137_017:         White non-Hispanic
+             NV137_018:      Black or African American:
+             NV137_019:         Black or African American non-Hispanic
+             NV137_020:      Asian or Pacific Islander
+             NV137_021:      American Indian or Alaska Native
+
+
+      75. Cumulative Population (2011-2013)
+          Universe:  none
+          Name:      NV139
+          Variables:
+             NV139_001:   Denominator 18 to 44 Years
+             NV139_002:      Denominator White
+             NV139_003:         Denominator White non-Hispanic
+             NV139_004:      Denominator Black or African American
+             NV139_005:         Denominator Black or African American non-Hispanic
+             NV139_006:      Denominator Asian or Pacific Islander
+             NV139_007:      Denominator American Indian or Alaska Native
+             NV139_008:   Denominator 45 to 64 Years
+             NV139_009:      Denominator White
+             NV139_010:         Denominator White non-Hispanic
+             NV139_011:      Denominator Black or African American
+             NV139_012:         Denominator Black or African American non-Hispanic
+             NV139_013:      Denominator Asian or Pacific Islander
+             NV139_014:      Denominator American Indian or Alaska Native
+             NV139_015:   Denominator 65 Years and Over
+             NV139_016:      Denominator White
+             NV139_017:         Denominator White non-Hispanic
+             NV139_018:      Denominator Black or African American
+             NV139_019:         Denominator Black or African American non-Hispanic
+             NV139_020:      Denominator Asian or Pacific Islander
+             NV139_021:      Denominator American Indian or Alaska Native
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      NAME:           Name of Area
+      QNAME:          Qualifying Name
+      STATE:          State
+      COUNTY:         County
+      T001_001:       Total Cancer Deaths (Rate per 100,000 Population, 2013)
+      T001_002:       Total Cancer Deaths (Rate per 100,000 Population, 2011-2013)
+      T001_003:       Total Cancer Deaths (Rate per 100,000 Population, 2009-2013)
+      T001_004:       Total Cancer Deaths (Rate per 100,000 Population, 2007-2013)
+      NV002_001:      Total Cancer Deaths (2013)
+      NV002_002:      Total Cancer Deaths (2011-2013)
+      NV002_003:      Total Cancer Deaths (2009-2013)
+      NV002_004:      Total Cancer Deaths (2007-2013)
+      NV003_001:      Total Population (est. 2013)
+      NV003_002:      Denominator Total_Cancer deaths total_2011-2013
+      NV003_003:      Denominator Total_Cancer deaths total_2009-2013
+      NV003_004:      Denominator Total_Cancer deaths total_2007-2013
+      T002_001:       Total Cancer Deaths (Rate per 100,000 Population, 2007-2013)
+      T002_002:       Total Cancer Deaths (Under 18 Years, Rate per 100,000 Population, 2007-2013)
+      T002_003:       Total Cancer Deaths (18 to 44 Years, Rate per 100,000 Population, 2007-2013)
+      T002_004:       Total Cancer Deaths (45 to 64 Years, Rate per 100,000 Population, 2007-2013)
+      T002_005:       Total Cancer Deaths (65 Years and Over, Rate per 100,000 Population, 2007-2013)
+      NV005_001:      Total Cancer Deaths (2007-2013)
+      NV005_002:      Total Cancer Deaths (Under 18 Years, 2007-2013)
+      NV005_003:      Total Cancer Deaths (18 to 44 Years, 2007-2013)
+      NV005_004:      Total Cancer Deaths (45 to 64 Years, 2007-2013)
+      NV005_005:      Total Cancer Deaths (65 Years and Over, 2007-2013)
+      NV006_001:      Denominator Total_Cancer deaths total_2007-2013
+      NV006_002:      Denominator Aged <18 years_Cancer deaths total_2007-2013
+      NV006_003:      Denominator Aged 18-44 years_Cancer deaths total_2007-2013
+      NV006_004:      Denominator Aged 45-64 years_Cancer deaths total_2007-2013
+      NV006_005:      Denominator Aged 65 years and over_Cancer deaths total_2007-2013
+      T003_001:       Total Cancer Deaths (Rate per 100,000 Population, 2009-2013)
+      T003_002:       Total Cancer Deaths (Under 18 Years, Rate per 100,000 Population, 2009-2013)
+      T003_003:       Total Cancer Deaths (18 to 44 Years, Rate per 100,000 Population, 2009-2013)
+      T003_004:       Total Cancer Deaths (45 to 64 Years, Rate per 100,000 Population, 2009-2013)
+      T003_005:       Total Cancer Deaths (65 Years and Over, Rate per 100,000 Population, 2009-2013)
+      NV008_001:      Total Cancer Deaths (2009-2013)
+      NV008_002:      Total Cancer Deaths (Under 18 Years, 2009-2013)
+      NV008_003:      Cancer Deaths (18 to 44 Years, 2009-2013)
+      NV008_004:      Total Cancer Deaths (45 to 64 Years, 2009-2013)
+      NV008_005:      Total Cancer Deaths (65 Years and Over, 2009-2013)
+      NV009_001:      Denominator Total_Cancer deaths total_2009-2013
+      NV009_002:      Denominator Aged <18 years_Cancer deaths total_2009-2013
+      NV009_003:      Denominator Aged 18-44 years_Cancer deaths total_2009-2013
+      NV009_004:      Denominator Aged 45-64 years_Cancer deaths total_2009-2013
+      NV009_005:      Denominator Aged 65 years and over_Cancer deaths total_2009-2013
+      T004_001:       Total Cancer Deaths (Rate per 100,000 Population, 2011-2013)
+      T004_002:       Cancer Deaths (Under 18 Years, Rate per 100,000 Population, 2011-2013)
+      T004_003:       Cancer Deaths (18 to 44 Years, Rate per 100,000 Population, 2011-2013)
+      T004_004:       Cancer Deaths (45 to 64 Years, Rate per 100,000 Population, 2011-2013)
+      T004_005:       Cancer Deaths (65 Years and Over, Rate per 100,000 Population, 2011-2013)
+      NV011_001:      Total Cancer Deaths (2011-2013)
+      NV011_002:      Total Cancer Deaths (Under 18 Years, 2011-2013)
+      NV011_003:      Total Cancer Deaths (18 to 44 Years, 2011-2013)
+      NV011_004:      Total Cancer Deaths (45 to 64 Years, 2011-2013)
+      NV011_005:      Total Cancer Deaths (65 Years and Over, 2011-2013)
+      NV012_001:      Denominator Total_Cancer deaths total_2011-2013
+      NV012_002:      Denominator Aged <18 years_Cancer deaths total_2011-2013
+      NV012_003:      Denominator Aged 18-44 years_Cancer deaths total_2011-2013
+      NV012_004:      Denominator Aged 45-64 years_Cancer deaths total_2011-2013
+      NV012_005:      Denominator Aged 65 years and over_Cancer deaths total_2011-2013
+      T005_001:       Total Cancer Deaths (Under 18 Years, Rate per 100,000 Population, 2007-2013)
+      T005_002:       Total Cancer Deaths (Under 18 Years White, Rate per 100,000 Population, 2007-2013)
+      T005_003:       Total Cancer Deaths (Under 18 Years White Non-Hispanic, Rate per 100,000 Population, 2007-2013)
+      T005_004:       Total Cancer Deaths (Under 18 Years Black or African American, Rate per 100,000 Population, 2007-2013)
+      T005_005:       Total Cancer Deaths (Under 18 Years Black or African American and Non-Hispanic, Rate per 100,000 Population, 2007-2013)
+      T005_006:       Total Cancer Deaths (Under 18 Years Asian or Pacific Islander, Rate per 100,000 Population, 2007-2013)
+      T005_007:       Total Cancer Deaths (Under 18 Years American Indian or Alaska Native, Rate per 100,000 Population, 2007-2013)
+      T005_008:       Total Cancer Deaths (18 to 44 Years, Rate per 100,000 Population, 2007-2013)
+      T005_009:       Total Cancer Deaths (18 to 44 Years White, Rate per 100,000 Population, 2007-2013)
+      T005_010:       Total Cancer Deaths (18 to 44 Years White Non-Hispanic, Rate per 100,000 Population, 2007-2013)
+      T005_011:       Total Cancer Deaths (18 to 44 Years Black or African American, Rate per 100,000 Population, 2007-2013)
+      T005_012:       Total Cancer Deaths (18 to 44 Years Black or African American and Non-Hispanic, Rate per 100,000 Population, 2007-2013)
+      T005_013:       Total Cancer Deaths (18 to 44 Years Asian or Pacific Islander, Rate per 100,000 Population, 2007-2013)
+      T005_014:       Total Cancer Deaths (18 to 44 Years American Indian or Alaska Native, Rate per 100,000 Population, 2007-2013)
+      T005_015:       Total Cancer Deaths (45 to 64 Years, Rate per 100,000 Population, 2007-2013)
+      T005_016:       Total Cancer Deaths (45 to 64 Years White, Rate per 100,000 Population, 2007-2013)
+      T005_017:       Total Cancer Deaths (45 to 64 Years White Non-Hispanic, Rate per 100,000 Population, 2007-2013)
+      T005_018:       Total Cancer Deaths (45 to 64 Years Black or African American, Rate per 100,000 Population, 2007-2013)
+      T005_019:       Total Cancer Deaths (45 to 64 Years Black or African American and Non-Hispanic, Rate per 100,000 Population, 2007-2013)
+      T005_020:       Total Cancer Deaths (45 to 64 Years Asian or Pacific Islander, Rate per 100,000 Population, 2007-2013)
+      T005_021:       Total Cancer Deaths (45 to 64 Years American Indian or Alaska Native, Rate per 100,000 Population, 2007-2013)
+      T005_022:       Total Cancer Deaths (65 Years and Over, Rate per 100,000 Population, 2007-2013)
+      T005_023:       Total Cancer Deaths (65 Years and Over White, Rate per 100,000 Population, 2007-2013)
+      T005_024:       Total Cancer Deaths (65 Years and Over White Non-Hispanic, Rate per 100,000 Population, 2007-2013)
+      T005_025:       Total Cancer Deaths (65 Years and Over Black or African American, Rate per 100,000 Population, 2007-2013)
+      T005_026:       Total Cancer Deaths (65 Years and Over Black or African American and Non-Hispanic, Rate per 100,000 Population, 2007-2013)
+      T005_027:       Total Cancer Deaths (65 Years and Over Asian or Pacific Islander, Rate per 100,000 Population, 2007-2013)
+      T005_028:       Total Cancer Deaths (65 Years and Over American Indian or Alaska Native, Rate per 100,000 Population, 2007-2013)
+      NV014_001:      Total Cancer Deaths (Under 18 Years, 2007-2013)
+      NV014_002:      Total Cancer Deaths (Under 18 Years White, 2007-2013)
+      NV014_003:      Total Cancer Deaths (Under 18 Years White Non-Hispanic, 2007-2013)
+      NV014_004:      Total Cancer Deaths (Under 18 Years Black or African American, 2007-2013)
+      NV014_005:      Total Cancer Deaths (Under 18 Years Black or African American Non-Hispanic, 2007-2013)
+      NV014_006:      Total Cancer Deaths (Under 18 Years Asian or Pacific Islander, 2007-2013)
+      NV014_007:      Cancer Deaths (Under 18 Years American Indian or Alaska Native, 2007-2013)
+      NV014_008:      Total Cancer Deaths (18 to 44 Years, 2007-2013)
+      NV014_009:      Total Cancer Deaths (18 to 44 Years White, 2007-2013)
+      NV014_010:      Total Cancer Deaths (18 to 44 Years White Non-Hispanic, 2007-2013)
+      NV014_011:      Total Cancer Deaths (18 to 44 Years Black or African American, 2007-2013)
+      NV014_012:      Total Cancer Deaths (18 to 44 Years Black or African American Non-Hispanic, 2007-2013)
+      NV014_013:      Total Cancer Deaths (18 to 44 Years Asian or Pacific Islander, 2007-2013)
+      NV014_014:      Total Cancer Deaths (18 to 44 Years American Indian or Alaska Native, 2007-2013)
+      NV014_015:      Total Cancer Deaths (45 to 64 Years, 2007-2013)
+      NV014_016:      Total Cancer Deaths (45 to 64 Years White, 2007-2013)
+      NV014_017:      Total Cancer Deaths (45 to 64 Years White Non-Hispanic, 2007-2013)
+      NV014_018:      Total Cancer Deaths (45 to 64 Years Black or African American, 2007-2013)
+      NV014_019:      Total Cancer Deaths (45 to 64 Years Black or African American Non-Hispanic, 2007-2013)
+      NV014_020:      Total Cancer Deaths (45 to 64 Years Asian or Pacific Islander, 2007-2013)
+      NV014_021:      Total Cancer Deaths (45 to 64 Years American Indian or Alaska Native, 2007-2013)
+      NV014_022:      Total Cancer Deaths (65 Years and Over, 2007-2013)
+      NV014_023:      Total Cancer Deaths (65 Years and Over White, 2007-2013)
+      NV014_024:      Total Cancer Deaths (65 Years and Over White Non-Hispanic, 2007-2013)
+      NV014_025:      Total Cancer Deaths (65 Years and Over Black or African American, 2007-2013)
+      NV014_026:      Total Cancer Deaths (65 Years and Over Black or African American Non-Hispanic, 2007-2013)
+      NV014_027:      Total Cancer Deaths (65 Years and Over Asian or Pacific Islander, 2007-2013)
+      NV014_028:      Total Cancer Deaths (65 Years and Over American Indian or Alaska Native, 2007-2013)
+      NV016_001:      Denominator Aged <18 years_Cancer deaths total_2007-2013
+      NV016_002:      Denominator Aged <18 years White_Cancer deaths total_2007-2013
+      NV016_003:      Denominator Aged <18 years White non-Hispanic_Cancer deaths total_2007-2013
+      NV016_004:      Denominator Aged <18 years Black or African American_Cancer deaths total_2007-2013
+      NV016_005:      Denominator Aged <18 years Black or African American non-Hispanic_Cancer deaths total_2007-2013
+      NV016_006:      Denominator Aged <18 years Asian or Pacific Islander_Cancer deaths total_2007-2013
+      NV016_007:      Denominator Aged <18 years American Indian or Alaska Native_Cancer deaths total_2007-2013
+      NV016_008:      Denominator Aged 18-44 years_Cancer deaths total_2007-2013
+      NV016_009:      Denominator Aged 18-44 years White_Cancer deaths total_2007-2013
+      NV016_010:      Denominator Aged 18-44 years White non-Hispanic_Cancer deaths total_2007-2013
+      NV016_011:      Denominator Aged 18-44 years Black or African American_Cancer deaths total_2007-2013
+      NV016_012:      Denominator Aged 18-44 years Black or African American non-Hispanic_Cancer deaths total_2007-2013
+      NV016_013:      Denominator Aged 18-44 years Asian or Pacific Islander_Cancer deaths total_2007-2013
+      NV016_014:      Denominator Aged 18-44 years American Indian or Alaska Native_Cancer deaths total_2007-2013
+      NV016_015:      Denominator Aged 45-64 years_Cancer deaths total_2007-2013
+      NV016_016:      Denominator Aged 45-64 years White_Cancer deaths total_2007-2013
+      NV016_017:      Denominator Aged 45-64 years White non-Hispanic_Cancer deaths total_2007-2013
+      NV016_018:      Denominator Aged 45-64 years Black or African American_Cancer deaths total_2007-2013
+      NV016_019:      Denominator Aged 45-64 years Black or African American non-Hispanic_Cancer deaths total_2007-2013
+      NV016_020:      Denominator Aged 45-64 years Asian or Pacific Islander_Cancer deaths total_2007-2013
+      NV016_021:      Denominator Aged 45-64 years American Indian or Alaska Native_Cancer deaths total_2007-2013
+      NV016_022:      Denominator Aged 65 years and over_Cancer deaths total_2007-2013
+      NV016_023:      Denominator Aged 65 years and over White_Cancer deaths total_2007-2013
+      NV016_024:      Denominator Aged 65 years and over White non-Hispanic_Cancer deaths total_2007-2013
+      NV016_025:      Denominator Aged 65 years and over Black or African American_Cancer deaths total_2007-2013
+      NV016_026:      Denominator Aged 65 years and over Black or African American non-Hispanic_Cancer deaths total_2007-2013
+      NV016_027:      Denominator Aged 65 years and over Asian or Pacific Islander_Cancer deaths total_2007-2013
+      NV016_028:      Denominator Aged 65 years and over American Indian or Alaska Native_Cancer deaths total_2007-2013
+      T006_001:       Cancer Deaths (Under 18 Years, Rate per 100,000 Population, 2009-2013)
+      T006_002:       Cancer Deaths (Under 18 Years White, Rate per 100,000 Population, 2009-2013)
+      T006_003:       Cancer Deaths (Under 18 Years White Non-Hispanic, Rate per 100,000 Population, 2009-2013)
+      T006_004:       Cancer Deaths (Under 18 Years Black or African American, Rate per 100,000 Population, 2009-2013)
+      T006_005:       Cancer Deaths (Under 18 Years Black or African American and Non-Hispanic, Rate per 100,000 Population, 2009-2013)
+      T006_006:       Cancer Deaths (Under 18 Years Asian or Pacific Islander, Rate per 100,000 Population, 2009-2013)
+      T006_007:       Cancer Deaths (Under 18 Years Asian or Pacific Islander, Rate per 100,000 Population, 2009-2013)
+      T006_008:       Total Cancer Deaths (18 to 44 Years, Rate per 100,000 Population, 2009-2013)
+      T006_009:       Cancer Deaths (18 to 44 Years White, Rate per 100,000 Population, 2009-2013)
+      T006_010:       Cancer Deaths (18 to 44 Years White Non-Hispanic, Rate per 100,000 Population, 2009-2013)
+      T006_011:       Cancer Deaths (18 to 44 Years Black or African American, Rate per 100,000 Population, 2009-2013)
+      T006_012:       Cancer Deaths (18 to 44 Years Black or African American and Non-Hispanic, Rate per 100,000 Population, 2009-2013)
+      T006_013:       Cancer Deaths (18 to 44 Years Asian or Pacific Islander, Rate per 100,000 Population, 2009-2013)
+      T006_014:       Cancer Deaths (18 to 44 Years American Indian or Alaska Native, Rate per 100,000 Population, 2009-2013)
+      T006_015:       Total Cancer Deaths (45 to 64 Years, Rate per 100,000 Population, 2009-2013)
+      T006_016:       Cancer Deaths (45 to 64 Years White, Rate per 100,000 Population, 2009-2013)
+      T006_017:       Cancer Deaths (45 to 64 Years White Non-Hispanic, Rate per 100,000 Population, 2009-2013)
+      T006_018:       Cancer Deaths (65 Years and Over Black or African American, Rate per 100,000 Population, 2009-2013)
+      T006_019:       Cancer Deaths (45 to 64 Years Black or African American and Non-Hispanic, Rate per 100,000 Population, 2009-2013)
+      T006_020:       Cancer Deaths (45 to 64 Years Asian or Pacific Islander, Rate per 100,000 Population, 2009-2013)
+      T006_021:       Cancer Deaths (45 to 64 Years American Indian or Alaska Native, Rate per 100,000 Population, 2009-2013)
+      T006_022:       Total Cancer Deaths (65 Years and Over, Rate per 100,000 Population, 2009-2013)
+      T006_023:       Cancer Deaths (65 Years and Over White, Rate per 100,000 Population, 2009-2013)
+      T006_024:       Cancer Deaths (65 Years and Over White Non-Hispanic, Rate per 100,000 Population, 2009-2013)
+      T006_025:       Cancer Deaths (65 Years and Over Black or African American, Rate per 100,000 Population, 2009-2013)
+      T006_026:       Cancer Deaths (65 Years and Over Black or African American and Non-Hispanic, Rate per 100,000 Population, 2009-2013)
+      T006_027:       Cancer Deaths (65 Years and Over Asian or Pacific Islander, Rate per 100,000 Population, 2009-2013)
+      T006_028:       Cancer Deaths (65 Years and Over American Indian or Alaska Native, Rate per 100,000 Population, 2009-2013)
+      NV018_001:      Total Cancer Deaths (Under 18 Years, 2009-2013)
+      NV018_002:      Total Cancer Deaths (Under 18 Years White, 2009-2013)
+      NV018_003:      Total Cancer Deaths (Under 18 Years White Non-Hispanic, 2009-2013)
+      NV018_004:      Total Cancer Deaths (Under 18 Years Black or African American, 2009-2013)
+      NV018_005:      Total Cancer Deaths (Under 18 Years Black or African American Non-Hispanic, 2009-2013)
+      NV018_006:      Total Cancer Deaths (Under 18 Years Asian or Pacific Islander, 2009-2013)
+      NV018_007:      Cancer Deaths (Under 18 Years American Indian or Alaska Native, 2009-2013)
+      NV018_008:      Total Cancer Deaths (18 to 44 Years, 2009-2013)
+      NV018_009:      Total Cancer Deaths (18 to 44 Years White, 2009-2013)
+      NV018_010:      Total Cancer Deaths (18 to 44 Years White Non-Hispanic, 2009-2013)
+      NV018_011:      Total Cancer Deaths (18 to 44 Years Black or African American, 2009-2013)
+      NV018_012:      Total Cancer Deaths (18 to 44 Years Black or African American Non-Hispanic, 2009-2013)
+      NV018_013:      Total Cancer Deaths (18 to 44 Years Asian or Pacific Islander, 2009-2013)
+      NV018_014:      Total Cancer Deaths (18 to 44 Years American Indian or Alaska Native, 2009-2013)
+      NV018_015:      Total Cancer Deaths (45 to 64 Years, 2009-2013)
+      NV018_016:      Total Cancer Deaths (45 to 64 Years White, 2009-2013)
+      NV018_017:      Total Cancer Deaths (45 to 64 Years White Non-Hispanic, 2009-2013)
+      NV018_018:      Total Cancer Deaths (45 to 64 Years Black or African American, 2009-2013)
+      NV018_019:      Total Cancer Deaths (45 to 64 Years Black or African American Non-Hispanic, 2009-2013)
+      NV018_020:      Total Cancer Deaths (45 to 64 Years Asian or Pacific Islander, 2009-2013)
+      NV018_021:      Total Cancer Deaths (45 to 64 Years American Indian or Alaska Native, 2009-2013)
+      NV018_022:      Total Cancer Deaths (65 Years and Over, 2009-2013)
+      NV018_023:      Total Cancer Deaths (65 Years and Over White, 2009-2013)
+      NV018_024:      Total Cancer Deaths (65 Years and Over White Non-Hispanic, 2009-2013)
+      NV018_025:      Total Cancer Deaths (65 Years and Over Black or African American, 2009-2013)
+      NV018_026:      Total Cancer Deaths (65 Years and Over Black or African American Non-Hispanic, 2009-2013)
+      NV018_027:      Total Cancer Deaths (65 Years and Over Asian or Pacific Islander, 2009-2013)
+      NV018_028:      Total Cancer Deaths (65 Years and Over American Indian or Alaska Native, 2009-2013)
+      NV020_001:      Denominator Aged <18 years_Cancer deaths total_2009-2013
+      NV020_002:      Denominator Aged <18 years White_Cancer deaths total_2009-2013
+      NV020_003:      Denominator Aged <18 years White non-Hispanic_Cancer deaths total_2009-2013
+      NV020_004:      Denominator Aged <18 years Black or African American_Cancer deaths total_2009-2013
+      NV020_005:      Denominator Aged <18 years Black or African American non-Hispanic_Cancer deaths total_2009-2013
+      NV020_006:      Denominator Aged <18 years Asian or Pacific Islander_Cancer deaths total_2009-2013
+      NV020_007:      Denominator Aged <18 years American Indian or Alaska Native_Cancer deaths total_2009-2013
+      NV020_008:      Denominator Aged 18-44 years_Cancer deaths total_2009-2013
+      NV020_009:      Denominator Aged 18-44 years White_Cancer deaths total_2009-2013
+      NV020_010:      Denominator Aged 18-44 years White non-Hispanic_Cancer deaths total_2009-2013
+      NV020_011:      Denominator Aged 18-44 years Black or African American_Cancer deaths total_2009-2013
+      NV020_012:      Denominator Aged 18-44 years Black or African American non-Hispanic_Cancer deaths total_2009-2013
+      NV020_013:      Denominator Aged 18-44 years Asian or Pacific Islander_Cancer deaths total_2009-2013
+      NV020_014:      Denominator Aged 18-44 years American Indian or Alaska Native_Cancer deaths total_2009-2013
+      NV020_015:      Denominator Aged 45-64 years_Cancer deaths total_2009-2013
+      NV020_016:      Denominator Aged 45-64 years White_Cancer deaths total_2009-2013
+      NV020_017:      Denominator Aged 45-64 years White non-Hispanic_Cancer deaths total_2009-2013
+      NV020_018:      Denominator Aged 45-64 years Black or African American_Cancer deaths total_2009-2013
+      NV020_019:      Denominator Aged 45-64 years Black or African American non-Hispanic_Cancer deaths total_2009-2013
+      NV020_020:      Denominator Aged 45-64 years Asian or Pacific Islander_Cancer deaths total_2009-2013
+      NV020_021:      Denominator Aged 45-64 years American Indian or Alaska Native_Cancer deaths total_2009-2013
+      NV020_022:      Denominator Aged 65 years and over_Cancer deaths total_2009-2013
+      NV020_023:      Denominator Aged 65 years and over White_Cancer deaths total_2009-2013
+      NV020_024:      Denominator Aged 65 years and over White non-Hispanic_Cancer deaths total_2009-2013
+      NV020_025:      Denominator Aged 65 years and over Black or African American_Cancer deaths total_2009-2013
+      NV020_026:      Denominator Aged 65 years and over Black or African American non-Hispanic_Cancer deaths total_2009-2013
+      NV020_027:      Denominator Aged 65 years and over Asian or Pacific Islander_Cancer deaths total_2009-2013
+      NV020_028:      Denominator Aged 65 years and over American Indian or Alaska Native_Cancer deaths total_2009-2013
+      T007_001:       Total Cancer Deaths (Under 18 Years, Rate per 100,000 Population, 2011-2013)
+      T007_002:       Cancer Deaths (Under 18 Years White, Rate per 100,000 Population, 2011-2013)
+      T007_003:       Cancer Deaths (Under 18 Years White non-Hispanic, Rate per 100,000 Population, 2011-2013)
+      T007_004:       Cancer Deaths (Under 18 Years Black or African American, Rate per 100,000 Population, 2011-2013)
+      T007_005:       Cancer Deaths (Under 18 Years Black or African American non-Hispanic, Rate per 100,000 Population, 2011-2013)
+      T007_006:       Cancer Deaths (Under 18 Years Asian or Pacific Islander, Rate per 100,000 Population, 2011-2013)
+      T007_007:       Cancer Deaths (Under 18 Years American Indian or Alaska Native, Rate per 100,000 Population, 2011-2013)
+      T007_008:       Total Cancer Deaths (18 to 44 Years, Rate per 100,000 Population, 2011-2013)
+      T007_009:       White
+      T007_010:       White non-Hispanic
+      T007_011:       Black or African American
+      T007_012:       Black or African American non-Hispanic
+      T007_013:       Asian or Pacific Islander
+      T007_014:       American Indian or Alaska Native
+      T007_015:       Total Cancer Deaths (45 to 64 Years, Rate per 100,000 Population, 2009-2013)
+      T007_016:       White
+      T007_017:       White non-Hispanic
+      T007_018:       Black or African American
+      T007_019:       Black or African American non-Hispanic
+      T007_020:       Asian or Pacific Islander
+      T007_021:       American Indian or Alaska Native
+      T007_022:       Total Cancer Deaths (65 Years and Over, Rate per 100,000 Population, 2009-2013)
+      T007_023:       White
+      T007_024:       White non-Hispanic
+      T007_025:       Black or African American
+      T007_026:       Black or African American non-Hispanic
+      T007_027:       Asian or Pacific Islander
+      T007_028:       Numeric.Value Aged 65 years and over American Indian or Alaska Native
+      NV022_001:      Total Cancer Deaths (Under 18 Years, 2011-2013)
+      NV022_002:      Total Cancer Deaths (Under 18 Years, White, 2011-2013)
+      NV022_003:      Total Cancer Deaths (Under 18 Years, White non-Hispanic, 2011-2013)
+      NV022_004:      Total Cancer Deaths (Under 18 Years, Black or African American, 2011-2013)
+      NV022_005:      Total Cancer Deaths (Under 18 Years, Black or African American non-Hispanic, 2011-2013)
+      NV022_006:      Total Cancer Deaths (Under 18 Years, Asian or Pacific Islander, 2011-2013)
+      NV022_007:      Cancer Deaths (Under 18 Years American Indian or Alaska Native, Rate per 100,000 Population, 2011-2013)
+      NV022_008:      Total Cancer Deaths (18 to 44 Years, 2011-2013)
+      NV022_009:      Total Cancer Deaths (18 to 44 Years, White, 2011-2013)
+      NV022_010:      Total Cancer Deaths (18 to 44 Years, White non-Hispanic, 2011-2013)
+      NV022_011:      Total Cancer Deaths (18 to 44 Years, Black or African American, 2011-2013)
+      NV022_012:      Total Cancer Deaths (18 to 44 Years, Black or African American non-Hispanic, 2011-2013)
+      NV022_013:      Total Cancer Deaths (18 to 44 Years, Asian or Pacific Islander, 2011-2013)
+      NV022_014:      Total Cancer Deaths (18 to 44 Years, American Indian or Alaska Native, 2011-2013)
+      NV022_015:      Total Cancer Deaths (45 to 64 Years, 2011-2013)
+      NV022_016:      Total Cancer Deaths (45 to 64 Years, White, 2011-2013)
+      NV022_017:      Total Cancer Deaths (45 to 64 Years, White non-Hispanic, 2011-2013)
+      NV022_018:      Total Cancer Deaths (45 to 64 Years, Black or African American, 2011-2013)
+      NV022_019:      Total Cancer Deaths (45 to 64 Years, Black or African American non-Hispanic, 2011-2013)
+      NV022_020:      Total Cancer Deaths (45 to 64 Years, Asian or Pacific Islander, 2011-2013)
+      NV022_021:      Total Cancer Deaths (45 to 64 Years, American Indian or Alaska Native, 2011-2013)
+      NV022_022:      Total Cancer Deaths (65 Years and Over, 2011-2013)
+      NV022_023:      Total Cancer Deaths (65 Years and Over, White, 2011-2013)
+      NV022_024:      Total Cancer Deaths (65 Years and Over, White non-Hispanic, 2011-2013)
+      NV022_025:      Total Cancer Deaths (65 Years and Over, Black or African American, 2011-2013)
+      NV022_026:      Total Cancer Deaths (65 Years and Over, Black or African American non-Hispanic, 2011-2013)
+      NV022_027:      Total Cancer Deaths (65 Years and Over, Asian or Pacific Islander, 2011-2013)
+      NV022_028:      Total Cancer Deaths (65 Years and Over, American Indian or Alaska Native, 2011-2013)
+      NV024_001:      Denominator Aged <18 years_Cancer deaths total_2011-2013
+      NV024_002:      Denominator Aged <18 years White_Cancer deaths total_2011-2013
+      NV024_003:      Denominator Aged <18 years White non-Hispanic_Cancer deaths total_2011-2013
+      NV024_004:      Denominator Aged <18 years Black or African American_Cancer deaths total_2011-2013
+      NV024_005:      Denominator Aged <18 years Black or African American non-Hispanic_Cancer deaths total_2011-2013
+      NV024_006:      Denominator Aged <18 years Asian or Pacific Islander_Cancer deaths total_2011-2013
+      NV024_007:      Denominator Aged <18 years American Indian or Alaska Native_Cancer deaths total_2011-2013
+      NV024_008:      Denominator Aged 18-44 years_Cancer deaths total_2011-2013
+      NV024_009:      Denominator Aged 18-44 years White_Cancer deaths total_2011-2013
+      NV024_010:      Denominator Aged 18-44 years White non-Hispanic_Cancer deaths total_2011-2013
+      NV024_011:      Denominator Aged 18-44 years Black or African American_Cancer deaths total_2011-2013
+      NV024_012:      Denominator Aged 18-44 years Black or African American non-Hispanic_Cancer deaths total_2011-2013
+      NV024_013:      Denominator Aged 18-44 years Asian or Pacific Islander_Cancer deaths total_2011-2013
+      NV024_014:      Denominator Aged 18-44 years American Indian or Alaska Native_Cancer deaths total_2011-2013
+      NV024_015:      Denominator Aged 45-64 years_Cancer deaths total_2011-2013
+      NV024_016:      Denominator Aged 45-64 years White_Cancer deaths total_2011-2013
+      NV024_017:      Denominator Aged 45-64 years White non-Hispanic_Cancer deaths total_2011-2013
+      NV024_018:      Denominator Aged 45-64 years Black or African American_Cancer deaths total_2011-2013
+      NV024_019:      Denominator Aged 45-64 years Black or African American non-Hispanic_Cancer deaths total_2011-2013
+      NV024_020:      Denominator Aged 45-64 years Asian or Pacific Islander_Cancer deaths total_2011-2013
+      NV024_021:      Denominator Aged 45-64 years American Indian or Alaska Native_Cancer deaths total_2011-2013
+      NV024_022:      Denominator Aged 65 years and over_Cancer deaths total_2011-2013
+      NV024_023:      Denominator Aged 65 years and over White_Cancer deaths total_2011-2013
+      NV024_024:      Denominator Aged 65 years and over White non-Hispanic_Cancer deaths total_2011-2013
+      NV024_025:      Denominator Aged 65 years and over Black or African American_Cancer deaths total_2011-2013
+      NV024_026:      Denominator Aged 65 years and over Black or African American non-Hispanic_Cancer deaths total_2011-2013
+      NV024_027:      Denominator Aged 65 years and over Asian or Pacific Islander_Cancer deaths total_2011-2013
+      NV024_028:      Denominator Aged 65 years and over American Indian or Alaska Native_Cancer deaths total_2011-2013
+      T008_001:       Under 18 Years
+      T008_002:       Female
+      T008_003:       Male
+      T008_004:       18 to 44 Years
+      T008_005:       Female
+      T008_006:       Male
+      T008_007:       45 to 64 Years
+      T008_008:       Female
+      T008_009:       Male
+      T008_010:       65 Years and Over
+      T008_011:       Female
+      T008_012:       Male
+      NV026_001:      Total Cancer Deaths (Under 18 Years, 2007-2013)
+      NV026_002:      Total Cancer Deaths (Under 18 Years Female, 2007-2013)
+      NV026_003:      Total Cancer Deaths (Under 18 Years Male, 2007-2013)
+      NV026_004:      Total Cancer Deaths (18 to 44 Years, 2007-2013)
+      NV026_005:      Total Cancer Deaths (18 to 44 Years Female, 2007-2013)
+      NV026_006:      Total Cancer Deaths (18 to 44 Years Male, 2007-2013)
+      NV026_007:      Total Cancer Deaths (45 to 64 Years, 2007-2013)
+      NV026_008:      Total Cancer Deaths (45 to 64 Years Female, 2007-2013)
+      NV026_009:      Total Cancer Deaths (45 to 64 Years Male, 2007-2013)
+      NV026_010:      Total Cancer Deaths (65 Years and Over, 2007-2013)
+      NV026_011:      Total Cancer Deaths (65 Years and Over Female, 2007-2013)
+      NV026_012:      Total Cancer Deaths (65 Years and Over Male, 2007-2013)
+      NV027_001:      DenominatorUnder 18 Years
+      NV027_002:      Denominator Female
+      NV027_003:      Denominator Male
+      NV027_004:      Denominator 18 to 44 Years
+      NV027_005:      Denominator Female
+      NV027_006:      Denominator Male
+      NV027_007:      Denominator 45 to 64 Years
+      NV027_008:      Denominator Female
+      NV027_009:      Denominator Male
+      NV027_010:      Denominator 65 Years and Over
+      NV027_011:      Denominator Female
+      NV027_012:      Denominator Male
+      T009_001:       Under 18 Years
+      T009_002:       Female
+      T009_003:       Male
+      T009_004:       18 to 44 Years
+      T009_005:       Female
+      T009_006:       Male
+      T009_007:       45 to 64 Years
+      T009_008:       Female
+      T009_009:       Male
+      T009_010:       65 Years and Over
+      T009_011:       Female
+      T009_012:       Male
+      NV029_001:      Total Cancer Deaths (Under 18 Years, 2009-2013)
+      NV029_002:      Total Cancer Deaths (Under 18 Years Female, 2009-2013)
+      NV029_003:      Total Cancer Deaths (Under 18 Years Male, 2009-2013)
+      NV029_004:      Total Cancer Deaths (18 to 44 Years, 2009-2013)
+      NV029_005:      Total Cancer Deaths (18 to 44 Years Female, 2009-2013)
+      NV029_006:      Total Cancer Deaths (18 to 44 Years Male, 2009-2013)
+      NV029_007:      Total Cancer Deaths (45 to 64 Years, 2009-2013)
+      NV029_008:      Total Cancer Deaths (45 to 64 Years Female, 2009-2013)
+      NV029_009:      Total Cancer Deaths (45 to 64 Years Male, 2009-2013)
+      NV029_010:      Total Cancer Deaths (65 Years and Over, 2009-2013)
+      NV029_011:      Total Cancer Deaths (65 Years and Over Female, 2009-2013)
+      NV029_012:      Total Cancer Deaths (65 Years and Over Male, 2009-2013)
+      NV030_001:      DenominatorUnder 18 Years
+      NV030_002:      Denominator Female
+      NV030_003:      Denominator Male
+      NV030_004:      Denominator 18 to 44 Years
+      NV030_005:      Denominator Female
+      NV030_006:      Denominator Male
+      NV030_007:      Denominator 45 to 64 Years
+      NV030_008:      Denominator Female
+      NV030_009:      Denominator Male
+      NV030_010:      Denominator 65 Years and Over
+      NV030_011:      Denominator Female
+      NV030_012:      Denominator Male
+      T010_001:       Total Cancer Deaths (Under 18 Years, 2011-2013)
+      T010_002:       Total Cancer Deaths (Under 18 Years Female, 2011-2013)
+      T010_003:       Total Cancer Deaths (Under 18 Years Male, 2011-2013)
+      T010_004:       Total Cancer Deaths (18 to 44 Years, 2011-2013)
+      T010_005:       Total Cancer Deaths (18 to 44 Years Female, 2011-2013)
+      T010_006:       Total Cancer Deaths (18 to 44 Years Male, 2011-2013)
+      T010_007:       Total Cancer Deaths (45 to 64 Years, 2011-2013)
+      T010_008:       Total Cancer Deaths (45 to 64 Years Female, 2011-2013)
+      T010_009:       Total Cancer Deaths (45 to 64 Years Male, 2011-2013)
+      T010_010:       Total Cancer Deaths (65 Years and Over, 2011-2013)
+      T010_011:       Total Cancer Deaths (65 Years and Over Female, 2011-2013)
+      T010_012:       Total Cancer Deaths (65 Years and Over Male, 2011-2013)
+      NV032_001:      Total Cancer Deaths (Under 18 Years, 2011-2013)
+      NV032_002:      Total Cancer Deaths (Under 18 Years Female, 2011-2013)
+      NV032_003:      Male
+      NV032_004:      Total Cancer Deaths (18 to 44 Years, 2011-2013)
+      NV032_005:      Total Cancer Deaths (18 to 44 Years Female, 2011-2013)
+      NV032_006:      Total Cancer Deaths (18 to 44 Years Male, 2011-2013)
+      NV032_007:      Total Cancer Deaths (45 to 64 Years, 2011-2013)
+      NV032_008:      Total Cancer Deaths (45 to 64 Years Female, 2011-2013)
+      NV032_009:      Total Cancer Deaths (45 to 64 Years Male, 2011-2013)
+      NV032_010:      Total Cancer Deaths (65 Years and Over, 2011-2013)
+      NV032_011:      Total Cancer Deaths (65 Years and Over Female, 2011-2013)
+      NV032_012:      Total Cancer Deaths (65 Years and Over Male, 2011-2013)
+      NV033_001:      DenominatorUnder 18 Years
+      NV033_002:      Denominator Female
+      NV033_003:      Denominator Male
+      NV033_004:      Denominator 18 to 44 Years
+      NV033_005:      Denominator Female
+      NV033_006:      Denominator Male
+      NV033_007:      Denominator 45 to 64 Years
+      NV033_008:      Denominator Female
+      NV033_009:      Denominator Male
+      NV033_010:      Denominator 65 Years and Over
+      NV033_011:      Denominator Female
+      NV033_012:      Denominator Male
+      T018_001:       Breast Cancer Deaths (Rate per 100,000 Population, 2013)
+      T018_002:       Breast Cancer Deaths (Rate per 100,000 Population, 2011-2013)
+      T018_003:       Breast Cancer Deaths (Rate per 100,000 Population, 2009-2013)
+      T018_004:       Breast Cancer Deaths (Rate per 100,000 Population, 2007-2013)
+      NV056_001:      Breast Cancer Deaths (2013)
+      NV056_002:      Breast Cancer Deaths (2011-2013)
+      NV056_003:      Breast Cancer Deaths (2009-2013)
+      NV056_004:      Breast Cancer Deaths (2007-2013)
+      NV057_001:      Denominator Total_Breast cancer deaths
+      NV057_002:      Denominator Total_Breast cancer deaths_2011-2013
+      NV057_003:      Denominator Total_Breast cancer deaths_2009-2013
+      NV057_004:      Denominator Total_Breast cancer deaths_2007-2013
+      T019_001:       Breast Cancer Deaths (Rate per 100,000 Population, 2007-2013)
+      T019_002:       18 to 44 Years
+      T019_003:       45 to 64 Years
+      T019_004:       65 Years and Over
+      NV059_001:      Breast Cancer Deaths (2007-2013) 
+      NV059_002:      Total Breast Cancer Deaths (18 to 44 Years, 2007-2013)
+      NV059_003:      Breast Cancer Deaths (45 to 64 Years, 2007-2013) 
+      NV059_004:      Breast Cancer Deaths (65 Years and Over, 2007-2013) 
+      NV060_001:      Denominator Total
+      NV060_002:      Denominator 18 to 44 Years
+      NV060_003:      Denominator 45 to 64 Years
+      NV060_004:      Denominator 65 Years and Over
+      T020_001:       Breast Cancer Deaths (Rate per 100,000 Population, 2009-2013)
+      T020_002:       18 to 44 Years
+      T020_003:       45 to 64 Years
+      T020_004:       65 Years and Over
+      NV062_001:      Breast Cancer Deaths by Age (2009-2013)
+      NV062_002:      Breast Cancer Deaths by Age (18 to 44 Years, 2009-2013)
+      NV062_003:      Breast Cancer Deaths by Age (45 to 64 Years, 2009-2013)
+      NV062_004:      Breast Cancer Deaths by Age (65 Years and Over, 2009-2013)
+      NV063_001:      Denominator Total
+      NV063_002:      Denominator 18 to 44 Years
+      NV063_003:      Denominator 45 to 64 Years
+      NV063_004:      Denominator 65 Years and Over
+      T021_001:       Breast Cancer Deaths
+      T021_002:       18 to 44 Years
+      T021_003:       45 to 64 Years
+      T021_004:       65 Years and Over
+      NV065_001:      Breast Cancer Deaths (2011-2013)
+      NV065_002:      Breast Cancer Deaths (18 to 44 Years, 2011-2013)
+      NV065_003:      Breast Cancer Deaths (18 to 44 Years, 2011-2013)
+      NV065_004:      Breast Cancer Deaths (18 to 44 Years, 2011-2013)
+      NV066_001:      Denominator Total
+      NV066_002:      Denominator 18 to 44 Years
+      NV066_003:      Denominator 45 to 64 Years
+      NV066_004:      Denominator 65 Years and Over
+      T024_001:       Colorectal Cancer Deaths (Rate per 100,000 Population, 2013)
+      T024_002:       Colorectal Cancer Deaths (Rate per 100,000 Population, 2011-2013)
+      T024_003:       Colorectal Cancer Deaths (Rate per 100,000 Population, 2009-2013)
+      T024_004:       Colorectal Cancer Deaths (Rate per 100,000 Population, 2007-2013)
+      NV076_001:      Colorectal Cancer Deaths (2013)
+      NV076_002:      Colorectal Cancer Deaths (2011-2013)
+      NV076_003:      Colorectal Cancer Deaths (2009-2013)
+      NV076_004:      Colorectal Cancer Deaths (2007-2013)
+      NV077_001:      Denominator Total_Colorectal cancer deaths (per 100000)
+      NV077_002:      Denominator Total_Colorectal cancer deaths (per 100000)_2011-2013
+      NV077_003:      Denominator Total_Colorectal cancer deaths (per 100000)_2009-2013
+      NV077_004:      Denominator Total_Colorectal cancer deaths (per 100000)_2007-2013
+      T025_001:       18 to 44 Years
+      T025_002:       White
+      T025_003:       White non-Hispanic
+      T025_004:       Black or African American
+      T025_005:       Black or African American non-Hispanic
+      T025_006:       Asian or Pacific Islander
+      T025_007:       American Indian or Alaska Native
+      T025_008:       45 to 64 Years
+      T025_009:       White
+      T025_010:       White non-Hispanic
+      T025_011:       Black or African American
+      T025_012:       Black or African American non-Hispanic
+      T025_013:       Asian or Pacific Islander
+      T025_014:       American Indian or Alaska Native
+      T025_015:       65 Years and Over
+      T025_016:       White
+      T025_017:       White non-Hispanic
+      T025_018:       Black or African American
+      T025_019:       Black or African American non-Hispanic
+      T025_020:       Asian or Pacific Islander
+      T025_021:       American Indian or Alaska Native
+      NV080_001:      18 to 44 Years
+      NV080_002:      White
+      NV080_003:      White non-Hispanic
+      NV080_004:      Black or African American
+      NV080_005:      Black or African American non-Hispanic
+      NV080_006:      Asian or Pacific Islander
+      NV080_007:      American Indian or Alaska Native
+      NV080_008:      45 to 64 Years
+      NV080_009:      White
+      NV080_010:      White non-Hispanic
+      NV080_011:      Black or African American
+      NV080_012:      Black or African American non-Hispanic
+      NV080_013:      Asian or Pacific Islander
+      NV080_014:      American Indian or Alaska Native
+      NV080_015:      65 Years and Over
+      NV080_016:      White
+      NV080_017:      White non-Hispanic
+      NV080_018:      Black or African American
+      NV080_019:      Black or African American non-Hispanic
+      NV080_020:      Asian or Pacific Islander
+      NV080_021:      American Indian or Alaska Native
+      NV081_001:      Denominator 18 to 44 Years
+      NV081_002:      Denominator White
+      NV081_003:      Denominator White non-Hispanic
+      NV081_004:      Denominator Black or African American
+      NV081_005:      Denominator Black or African American non-Hispanic
+      NV081_006:      Denominator Asian or Pacific Islander
+      NV081_007:      Denominator American Indian or Alaska Native
+      NV081_008:      Denominator 45 to 64 Years
+      NV081_009:      Denominator White
+      NV081_010:      Denominator White non-Hispanic
+      NV081_011:      Denominator Black or African American
+      NV081_012:      Denominator Black or African American non-Hispanic
+      NV081_013:      Denominator Asian or Pacific Islander
+      NV081_014:      Denominator American Indian or Alaska Native
+      NV081_015:      Denominator 65 Years and Over
+      NV081_016:      Denominator White
+      NV081_017:      Denominator White non-Hispanic
+      NV081_018:      Denominator Black or African American
+      NV081_019:      Denominator Black or African American non-Hispanic
+      NV081_020:      Denominator Asian or Pacific Islander
+      NV081_021:      Denominator American Indian or Alaska Native
+      T026_001:       18 to 44 Years
+      T026_002:       White
+      T026_003:       White non-Hispanic
+      T026_004:       Black or African American
+      T026_005:       Black or African American non-Hispanic
+      T026_006:       Asian or Pacific Islander
+      T026_007:       45 to 64 Years
+      T026_008:       White
+      T026_009:       White non-Hispanic
+      T026_010:       Black or African American
+      T026_011:       Black or African American non-Hispanic
+      T026_012:       Asian or Pacific Islander
+      T026_013:       American Indian or Alaska Native
+      T026_014:       65 Years and Over
+      T026_015:       White
+      T026_016:       White non-Hispanic
+      T026_017:       Black or African American
+      T026_018:       Black or African American non-Hispanic
+      T026_019:       Asian or Pacific Islander
+      T026_020:       American Indian or Alaska Native
+      NV083_001:      Colorectal Cancer Deaths (18 to 44 Years, 2009-2013)
+      NV083_002:      Colorectal Cancer Deaths (18 to 44 Years White, 2009-2013)
+      NV083_003:      Colorectal Cancer Deaths (18 to 44 Years White non-Hispanic, 2009-2013)
+      NV083_004:      Colorectal Cancer Deaths (18 to 44 Years Black or African American, 2009-2013)
+      NV083_005:      Colorectal Cancer Deaths (18 to 44 Years Black or African American non-Hispanic, 2009-2013)
+      NV083_006:      Colorectal Cancer Deaths (18 to 44 Years Asian or Pacific Islander, 2009-2013)
+      NV083_007:      Colorectal Cancer Deaths (45 to 64 Years, 2009-2013)
+      NV083_008:      Colorectal Cancer Deaths (45 to 64 Years White, 2009-2013)
+      NV083_009:      Colorectal Cancer Deaths (45 to 64 Years White non-Hispanic, 2009-2013)
+      NV083_010:      Colorectal Cancer Deaths (45 to 64 Years Black or African American, 2009-2013)
+      NV083_011:      Colorectal Cancer Deaths (45 to 64 Years Black or African American non-Hispanic, 2009-2013)
+      NV083_012:      Colorectal Cancer Deaths (45 to 64 Years Asian or Pacific Islander, 2009-2013)
+      NV083_013:      Colorectal Cancer Deaths (45 to 64 Years American Indian or Alaska Native, 2009-2013)
+      NV083_014:      Colorectal Cancer Deaths (65 Years and Over, 2009-2013)
+      NV083_015:      Colorectal Cancer Deaths (65 Years and Over White, 2009-2013)
+      NV083_016:      Colorectal Cancer Deaths (65 Years and Over White non-Hispanic, 2009-2013)
+      NV083_017:      Colorectal Cancer Deaths (65 Years and Over Black or African American, 2009-2013)
+      NV083_018:      Colorectal Cancer Deaths (65 Years and Over Black or African American non-Hispanic, 2009-2013)
+      NV083_019:      Colorectal Cancer Deaths (65 Years and Over Asian or Pacific Islander, 2009-2013)
+      NV083_020:      Colorectal Cancer Deaths (65 Years and Over American Indian or Alaska Native, 2009-2013)
+      NV084_001:      Denominator 18 to 44 Years
+      NV084_002:      Denominator White
+      NV084_003:      Denominator White non-Hispanic
+      NV084_004:      Denominator Black or African American
+      NV084_005:      Denominator Black or African American non-Hispanic
+      NV084_006:      Denominator Asian or Pacific Islander
+      NV084_007:      Denominator 45 to 64 Years
+      NV084_008:      Denominator White
+      NV084_009:      Denominator White non-Hispanic
+      NV084_010:      Denominator Black or African American
+      NV084_011:      Denominator Black or African American non-Hispanic
+      NV084_012:      Denominator Asian or Pacific Islander
+      NV084_013:      Denominator American Indian or Alaska Native
+      NV084_014:      Denominator 65 Years and Over
+      NV084_015:      Denominator White
+      NV084_016:      Denominator White non-Hispanic
+      NV084_017:      Denominator Black or African American
+      NV084_018:      Denominator Black or African American non-Hispanic
+      NV084_019:      Denominator Asian or Pacific Islander
+      NV084_020:      Denominator American Indian or Alaska Native
+      T027_001:       18 to 44 Years
+      T027_002:       White
+      T027_003:       White non-Hispanic
+      T027_004:       Black or African American
+      T027_005:       Black or African American non-Hispanic
+      T027_006:       Asian or Pacific Islander
+      T027_007:       45 to 64 Years
+      T027_008:       White
+      T027_009:       White non-Hispanic
+      T027_010:       Black or African American
+      T027_011:       Black or African American non-Hispanic
+      T027_012:       Asian or Pacific Islander
+      T027_013:       American Indian or Alaska Native
+      T027_014:       65 Years and Over
+      T027_015:       White
+      T027_016:       White non-Hispanic
+      T027_017:       Black or African American
+      T027_018:       Black or African American non-Hispanic
+      T027_019:       Asian or Pacific Islander
+      T027_020:       American Indian or Alaska Native
+      NV086_001:      Colorectal Cancer Deaths (18 to 44 Years, 2011-2013)
+      NV086_002:      Colorectal Cancer Deaths (18 to 44 Years White, 2011-2013)
+      NV086_003:      Colorectal Cancer Deaths (18 to 44 Years White non-Hispanic, 2011-2013)
+      NV086_004:      Colorectal Cancer Deaths (18 to 44 Years Black or African American, 2011-2013)
+      NV086_005:      Colorectal Cancer Deaths (18 to 44 Years Black or African American non-Hispanic, 2011-2013)
+      NV086_006:      Colorectal Cancer Deaths (18 to 44 Years Asian or Pacific Islander, 2011-2013)
+      NV086_007:      Colorectal Cancer Deaths (45 to 64 Years, 2011-2013)
+      NV086_008:      Colorectal Cancer Deaths (45 to 64 Years White, 2011-2013)
+      NV086_009:      Colorectal Cancer Deaths (45 to 64 Years White non-Hispanic, 2011-2013)
+      NV086_010:      Colorectal Cancer Deaths (45 to 64 Years Black or African American, 2011-2013)
+      NV086_011:      Colorectal Cancer Deaths (45 to 64 Years Black or African American non-Hispanic, 2011-2013)
+      NV086_012:      Colorectal Cancer Deaths (45 to 64 Years American Indian or Alaska Native, 2011-2013)
+      NV086_013:      Colorectal Cancer Deaths (45 to 64 Years Asian or Pacific Islander, 2011-2013)
+      NV086_014:      Colorectal Cancer Deaths (65 Years and Over, 2011-2013)
+      NV086_015:      Colorectal Cancer Deaths (65 Years and Over White, 2011-2013)
+      NV086_016:      Colorectal Cancer Deaths (65 Years and Over White non-Hispanic, 2011-2013)
+      NV086_017:      Colorectal Cancer Deaths (65 Years and Over Black or African American, 2011-2013)
+      NV086_018:      Colorectal Cancer Deaths (65 Years and Over Black or African American non-Hispanic, 2011-2013)
+      NV086_019:      Colorectal Cancer Deaths (65 Years and Over Asian or Pacific Islander, 2011-2013)
+      NV086_020:      Colorectal Cancer Deaths (65 Years and Over American Indian or Alaska Native, 2011-2013)
+      NV087_001:      Denominator 18 to 44 Years
+      NV087_002:      Denominator White
+      NV087_003:      Denominator White non-Hispanic
+      NV087_004:      Denominator Black or African American
+      NV087_005:      Denominator Black or African American non-Hispanic
+      NV087_006:      Denominator Asian or Pacific Islander
+      NV087_007:      Denominator 45 to 64 Years
+      NV087_008:      Denominator White
+      NV087_009:      Denominator White non-Hispanic
+      NV087_010:      Denominator Black or African American
+      NV087_011:      Denominator Black or African American non-Hispanic
+      NV087_012:      Denominator Asian or Pacific Islander
+      NV087_013:      Denominator American Indian or Alaska Native
+      NV087_014:      Denominator 65 Years and Over
+      NV087_015:      Denominator White
+      NV087_016:      Denominator White non-Hispanic
+      NV087_017:      Denominator Black or African American
+      NV087_018:      Denominator Black or African American non-Hispanic
+      NV087_019:      Denominator Asian or Pacific Islander
+      NV087_020:      Denominator American Indian or Alaska Native
+      T028_001:       18 to 44 Years
+      T028_002:       Female
+      T028_003:       Male
+      T028_004:       45 to 64 Years
+      T028_005:       Female
+      T028_006:       Male
+      T028_007:       65 Years and Over
+      T028_008:       Female
+      T028_009:       Male
+      NV089_001:      Colorectal Cancer Deaths (18 to 44 Years, 2007-2013)
+      NV089_002:      Colorectal Cancer Deaths (18 to 44 Years Female, 2007-2013)
+      NV089_003:      Colorectal Cancer Deaths (18 to 44 Years Male, 2007-2013)
+      NV089_004:      Colorectal Cancer Deaths (45 to 64 Years , 2007-2013)
+      NV089_005:      Colorectal Cancer Deaths (45 to 64 Years Female, 2007-2013)
+      NV089_006:      Colorectal Cancer Deaths (45 to 64 Years Male, 2007-2013)
+      NV089_007:      Colorectal Cancer Deaths (65 Years and Over, 2007-2013)
+      NV089_008:      Colorectal Cancer Deaths (65 Years and Over Female, 2007-2013)
+      NV089_009:      Colorectal Cancer Deaths (65 Years and Over Male, 2007-2013)
+      NV090_001:      Denominator 18 to 44 Years
+      NV090_002:      Denominator Female
+      NV090_003:      Denominator Male
+      NV090_004:      Denominator 45 to 64 Years
+      NV090_005:      Denominator Female
+      NV090_006:      Denominator Male
+      NV090_007:      Denominator 65 Years and Over
+      NV090_008:      Denominator Female
+      NV090_009:      Denominator Male
+      T029_001:       18 to 44 Years
+      T029_002:       Female
+      T029_003:       Male
+      T029_004:       45 to 64 Years
+      T029_005:       Female
+      T029_006:       Male
+      T029_007:       65 Years and Over
+      T029_008:       Female
+      T029_009:       Male
+      NV092_001:      Colorectal Cancer Deaths (18 to 44 Years, 2009-2013)
+      NV092_002:      Colorectal Cancer Deaths (18 to 44 Years Female, 2009-2013)
+      NV092_003:      Colorectal Cancer Deaths (18 to 44 Years Male, 2009-2013)
+      NV092_004:      Colorectal Cancer Deaths (45 to 64 Years, 2009-2013)
+      NV092_005:      Colorectal Cancer Deaths (45 to 64 Years Female, 2009-2013)
+      NV092_006:      Colorectal Cancer Deaths (45 to 64 Years Male, 2009-2013)
+      NV092_007:      Colorectal Cancer Deaths (65 Years and Over, 2009-2013)
+      NV092_008:      Colorectal Cancer Deaths (65 Years and Over Female, 2009-2013)
+      NV092_009:      Colorectal Cancer Deaths (65 Years and Over Male, 2009-2013)
+      NV093_001:      Denominator 18 to 44 Years
+      NV093_002:      Denominator Female
+      NV093_003:      Denominator Male
+      NV093_004:      Denominator 45 to 64 Years
+      NV093_005:      Denominator Female
+      NV093_006:      Denominator Male
+      NV093_007:      Denominator 45 to 64 Years
+      NV093_008:      Denominator Female
+      NV093_009:      Denominator Male
+      T030_001:       18 to 44 Years
+      T030_002:       Female
+      T030_003:       Male
+      T030_004:       45 to 64 Years
+      T030_005:       Female
+      T030_006:       Male
+      T030_007:       65 Years and Over
+      T030_008:       Female
+      T030_009:       Male
+      NV095_001:      Colorectal Cancer Deaths (18 to 44 Years, 2011-2013)
+      NV095_002:      Colorectal Cancer Deaths (18 to 44 Years Female, 2011-2013)
+      NV095_003:      Colorectal Cancer Deaths (18 to 44 Years Male, 2011-2013)
+      NV095_004:      Colorectal Cancer Deaths (45 to 64 Years, 2011-2013)
+      NV095_005:      Colorectal Cancer Deaths (45 to 64 Years Female, 2011-2013)
+      NV095_006:      Colorectal Cancer Deaths (45 to 64 Years Male, 2011-2013)
+      NV095_007:      Colorectal Cancer Deaths (65 Years and Over, 2011-2013)
+      NV095_008:      Colorectal Cancer Deaths (65 Years and Over Female, 2011-2013)
+      NV095_009:      Colorectal Cancer Deaths (65 Years and Over Male, 2011-2013)
+      NV096_001:      Denominator 18 to 44 Years
+      NV096_002:      Denominator Female
+      NV096_003:      Denominator Male
+      NV096_004:      Denominator 45 to 64 Years
+      NV096_005:      Denominator Female
+      NV096_006:      Denominator Male
+      NV096_007:      Denominator 65 Years and Over
+      NV096_008:      Denominator Female
+      NV096_009:      Denominator Male
+      T038_001:       Lung Cancer Deaths (Rate per 100,000 Population, 2013)
+      T038_002:       Lung Cancer Deaths (Rate per 100,000 Population, 2011-2013)
+      T038_003:       Lung Cancer Deaths (Rate per 100,000 Population, 2009-2013)
+      T038_004:       Lung Cancer Deaths (Rate per 100,000 Population, 2007-2013)
+      NV124_001:      Lung Cancer Deaths (2013)
+      NV124_002:      Lung Cancer Deaths (2011-2013)
+      NV124_003:      Lung Cancer Deaths (2009-2013)
+      NV124_004:      Lung Cancer Deaths (2007-2013)
+      NV125_001:      Denominator Total_Lung trachea and bronchus cancer deaths (per 100000)
+      NV125_002:      Denominator Total_Lung trachea and bronchus cancer deaths (per 100000)_2011-2013
+      NV125_003:      Denominator Total_Lung trachea and bronchus cancer deaths (per 100000)_2009-2013
+      NV125_004:      Denominator Total_Lung trachea and bronchus cancer deaths (per 100000)_2007-2013
+      T039_001:       18 to 44 Years
+      T039_002:       White
+      T039_003:       White non-Hispanic
+      T039_004:       Black or African American
+      T039_005:       Black or African American non-Hispanic
+      T039_006:       Asian or Pacific Islander
+      T039_007:       American Indian or Alaska Native
+      T039_008:       45 to 64 Years
+      T039_009:       White
+      T039_010:       White non-Hispanic
+      T039_011:       Black or African American
+      T039_012:       Black or African American non-Hispanic
+      T039_013:       Asian or Pacific Islander
+      T039_014:       American Indian or Alaska Native
+      T039_015:       65 Years and Over
+      T039_016:       White
+      T039_017:       White non-Hispanic
+      T039_018:       Black or African American
+      T039_019:       Black or African American non-Hispanic
+      T039_020:       Asian or Pacific Islander
+      T039_021:       American Indian or Alaska Native
+      NV128_001:      Lung Cancer Deaths (18 to 44 Years, 2007-2013)
+      NV128_002:      Lung Cancer Deaths (18 to 44 Years White, 2007-2013)
+      NV128_003:      Lung Cancer Deaths (18 to 44 Years White non-Hispanic, 2007-2013)
+      NV128_004:      Lung Cancer Deaths (18 to 44 Years Black or African American, 2007-2013)
+      NV128_005:      Lung Cancer Deaths (18 to 44 Years Black or African American non-Hispanic, 2007-2013)
+      NV128_006:      Lung Cancer Deaths (18 to 44 Years Asian or Pacific Islander, 2007-2013)
+      NV128_007:      Lung Cancer Deaths (18 to 44 Years American Indian or Alaska Native, 2007-2013)
+      NV128_008:      Lung Cancer Deaths (45 to 64 Years, 2007-2013)
+      NV128_009:      Lung Cancer Deaths (45 to 64 Years White, 2007-2013)
+      NV128_010:      Lung Cancer Deaths (45 to 64 Years White non-Hispanic, 2007-2013)
+      NV128_011:      Lung Cancer Deaths (45 to 64 Years Black or African American, 2007-2013)
+      NV128_012:      Lung Cancer Deaths (45 to 64 Years Black or African American non-Hispanic, 2007-2013)
+      NV128_013:      Lung Cancer Deaths (45 to 64 Years Asian or Pacific Islander, 2007-2013)
+      NV128_014:      Lung Cancer Deaths (45 to 64 Years American Indian or Alaska Native, 2007-2013)
+      NV128_015:      Lung Cancer Deaths (65 Years and Over, 2007-2013)
+      NV128_016:      Lung Cancer Deaths (65 Years and Over White, 2007-2013)
+      NV128_017:      Lung Cancer Deaths (65 Years and Over White non-Hispanic, 2007-2013)
+      NV128_018:      Lung Cancer Deaths (65 Years and Over Black or African American, 2007-2013)
+      NV128_019:      Lung Cancer Deaths (65 Years and Over Black or African American non-Hispanic, 2007-2013)
+      NV128_020:      Lung Cancer Deaths (65 Years and Over Asian or Pacific Islander, 2007-2013)
+      NV128_021:      Lung Cancer Deaths (65 Years and Over American Indian or Alaska Native, 2007-2013)
+      NV130_001:      Denominator 18 to 44 Years
+      NV130_002:      Denominator White
+      NV130_003:      Denominator White non-Hispanic
+      NV130_004:      Denominator Black or African American
+      NV130_005:      Denominator Black or African American non-Hispanic
+      NV130_006:      Denominator Asian or Pacific Islander
+      NV130_007:      Denominator American Indian or Alaska Native
+      NV130_008:      Denominator 45 to 64 Years
+      NV130_009:      Denominator White
+      NV130_010:      Denominator White non-Hispanic
+      NV130_011:      Denominator Black or African American
+      NV130_012:      Denominator Black or African American non-Hispanic
+      NV130_013:      Denominator Asian or Pacific Islander
+      NV130_014:      Denominator American Indian or Alaska Native
+      NV130_015:      Denominator 65 Years and Over
+      NV130_016:      Denominator White
+      NV130_017:      Denominator White non-Hispanic
+      NV130_018:      Denominator Black or African American
+      NV130_019:      Denominator Black or African American non-Hispanic
+      NV130_020:      Denominator Asian or Pacific Islander
+      NV130_021:      Denominator American Indian or Alaska Native
+      T040_001:       18 to 44 Years
+      T040_002:       White
+      T040_003:       White non-Hispanic
+      T040_004:       Black or African American
+      T040_005:       Black or African American non-Hispanic
+      T040_006:       Asian or Pacific Islander
+      T040_007:       American Indian or Alaska Native
+      T040_008:       45 to 64 Years
+      T040_009:       White
+      T040_010:       White non-Hispanic
+      T040_011:       Black or African American
+      T040_012:       Black or African American non-Hispanic
+      T040_013:       Asian or Pacific Islander
+      T040_014:       American Indian or Alaska Native
+      T040_015:       65 Years and Over
+      T040_016:       White
+      T040_017:       White non-Hispanic
+      T040_018:       Black or African American
+      T040_019:       Black or African American non-Hispanic
+      T040_020:       Asian or Pacific Islander
+      T040_021:       American Indian or Alaska Native
+      NV133_001:      Lung Cancer Deaths (18 to 44 Years, 2009-2013)
+      NV133_002:      Lung Cancer Deaths (18 to 44 Years White, 2009-2013)
+      NV133_003:      Lung Cancer Deaths (18 to 44 Years White non-Hispanic, 2009-2013)
+      NV133_004:      Lung Cancer Deaths (18 to 44 Years Black or African American, 2009-2013)
+      NV133_005:      Lung Cancer Deaths (18 to 44 Years Black or African American non-Hispanic, 2009-2013)
+      NV133_006:      Lung Cancer Deaths (18 to 44 Years Asian or Pacific Islander, 2009-2013)
+      NV133_007:      American Indian or Alaska Native
+      NV133_008:      Lung Cancer Deaths (45 to 64 Years, 2009-2013)
+      NV133_009:      Lung Cancer Deaths (45 to 64 Years White, 2009-2013)
+      NV133_010:      Lung Cancer Deaths (45 to 64 Years White non-Hispanic, 2009-2013)
+      NV133_011:      Lung Cancer Deaths (45 to 64 Years Black or African American, 2009-2013)
+      NV133_012:      Lung Cancer Deaths (45 to 64 Years Black or African American non-Hispanic, 2009-2013)
+      NV133_013:      Lung Cancer Deaths (45 to 64 Years Asian or Pacific Islander, 2009-2013)
+      NV133_014:      Lung Cancer Deaths (45 to 64 Years American Indian or Alaska Native, 2009-2013)
+      NV133_015:      Lung Cancer Deaths (65 Years and Over, 2009-2013)
+      NV133_016:      Lung Cancer Deaths (65 Years and Over White, 2009-2013)
+      NV133_017:      Lung Cancer Deaths (65 Years and Over White non-Hispanic, 2009-2013)
+      NV133_018:      Lung Cancer Deaths (65 Years and Over Black or African American, 2009-2013)
+      NV133_019:      Lung Cancer Deaths (65 Years and Over Black or African American non-Hispanic, 2009-2013)
+      NV133_020:      Lung Cancer Deaths (65 Years and Over Asian or Pacific Islander, 2009-2013)
+      NV133_021:      Lung Cancer Deaths (65 Years and Over American Indian or Alaska Native, 2009-2013)
+      NV135_001:      Denominator 18 to 44 Years
+      NV135_002:      Denominator White
+      NV135_003:      Denominator White non-Hispanic
+      NV135_004:      Denominator Black or African American
+      NV135_005:      Denominator Black or African American non-Hispanic
+      NV135_006:      Denominator Asian or Pacific Islander
+      NV135_007:      Denominator American Indian or Alaska Native
+      NV135_008:      Denominator 45 to 64 Years
+      NV135_009:      Denominator White
+      NV135_010:      Denominator White non-Hispanic
+      NV135_011:      Denominator Black or African American
+      NV135_012:      Denominator Black or African American non-Hispanic
+      NV135_013:      Denominator Asian or Pacific Islander
+      NV135_014:      Denominator American Indian or Alaska Native
+      NV135_015:      Denominator 65 Years and Over
+      NV135_016:      Denominator White
+      NV135_017:      Denominator White non-Hispanic
+      NV135_018:      Denominator Black or African American
+      NV135_019:      Denominator Black or African American non-Hispanic
+      NV135_020:      Denominator Asian or Pacific Islander
+      NV135_021:      Denominator American Indian or Alaska Native
+      T041_001:       18 to 44 Years
+      T041_002:       White
+      T041_003:       White non-Hispanic
+      T041_004:       Black or African American
+      T041_005:       Black or African American non-Hispanic
+      T041_006:       Asian or Pacific Islander
+      T041_007:       American Indian or Alaska Native
+      T041_008:       45 to 64 Years
+      T041_009:       White
+      T041_010:       White non-Hispanic
+      T041_011:       Black or African American
+      T041_012:       Black or African American non-Hispanic
+      T041_013:       Asian or Pacific Islander
+      T041_014:       American Indian or Alaska Native
+      T041_015:       65 Years and Over
+      T041_016:       White
+      T041_017:       White non-Hispanic
+      T041_018:       Black or African American
+      T041_019:       Black or African American non-Hispanic
+      T041_020:       Asian or Pacific Islander
+      T041_021:       American Indian or Alaska Native
+      NV137_001:      Lung Cancer Deaths (18 to 44 Years, 2011-2013)
+      NV137_002:      Lung Cancer Deaths (18 to 44 Years White, 2011-2013)
+      NV137_003:      Lung Cancer Deaths (18 to 44 Years White non-Hispanic, 2011-2013)
+      NV137_004:      Lung Cancer Deaths (18 to 44 Years Black or African American, 2011-2013)
+      NV137_005:      Lung Cancer Deaths (18 to 44 Years Black or African American non-Hispanic, 2011-2013)
+      NV137_006:      Lung Cancer Deaths (18 to 44 Years Asian or Pacific Islander, 2011-2013)
+      NV137_007:      Lung Cancer Deaths (18 to 44 Years American Indian or Alaska Native, 2011-2013)
+      NV137_008:      Lung Cancer Deaths (45 to 64 Years, 2011-2013)
+      NV137_009:      Lung Cancer Deaths (45 to 64 Years White, 2011-2013)
+      NV137_010:      Lung Cancer Deaths (45 to 64 Years White non-Hispanic, 2011-2013)
+      NV137_011:      Lung Cancer Deaths (45 to 64 Years Black or African American, 2011-2013)
+      NV137_012:      Lung Cancer Deaths (45 to 64 Years Black or African American non-Hispanic, 2011-2013)
+      NV137_013:      Lung Cancer Deaths (45 to 64 Years Asian or Pacific Islander, 2011-2013)
+      NV137_014:      Lung Cancer Deaths (45 to 64 Years American Indian or Alaska Native, 2011-2013)
+      NV137_015:      Lung Cancer Deaths (65 Years and Over, 2011-2013)
+      NV137_016:      Lung Cancer Deaths (65 Years and Over White, 2011-2013)
+      NV137_017:      Lung Cancer Deaths (65 Years and Over White non-Hispanic, 2011-2013)
+      NV137_018:      Lung Cancer Deaths (65 Years and Over Black or African American, 2011-2013)
+      NV137_019:      Lung Cancer Deaths (65 Years and Over Black or African American non-Hispanic, 2011-2013)
+      NV137_020:      Lung Cancer Deaths (65 Years and Over Asian or Pacific Islander, 2011-2013)
+      NV137_021:      Lung Cancer Deaths (65 Years and Over American Indian or Alaska Native, 2011-2013)
+      NV139_001:      Denominator 18 to 44 Years
+      NV139_002:      Denominator White
+      NV139_003:      Denominator White non-Hispanic
+      NV139_004:      Denominator Black or African American
+      NV139_005:      Denominator Black or African American non-Hispanic
+      NV139_006:      Denominator Asian or Pacific Islander
+      NV139_007:      Denominator American Indian or Alaska Native
+      NV139_008:      Denominator 45 to 64 Years
+      NV139_009:      Denominator White
+      NV139_010:      Denominator White non-Hispanic
+      NV139_011:      Denominator Black or African American
+      NV139_012:      Denominator Black or African American non-Hispanic
+      NV139_013:      Denominator Asian or Pacific Islander
+      NV139_014:      Denominator American Indian or Alaska Native
+      NV139_015:      Denominator 65 Years and Over
+      NV139_016:      Denominator White
+      NV139_017:      Denominator White non-Hispanic
+      NV139_018:      Denominator Black or African American
+      NV139_019:      Denominator Black or African American non-Hispanic
+      NV139_020:      Denominator Asian or Pacific Islander
+      NV139_021:      Denominator American Indian or Alaska Native
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2017
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R11371132
+
+If you have any questions contact info@socialexplorer.com
